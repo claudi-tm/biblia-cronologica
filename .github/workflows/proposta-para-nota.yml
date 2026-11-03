@@ -1,0 +1,51 @@
+name: Proposta aprovada → nota
+
+# Quando quem coordena põe a etiqueta "aprovar" numa proposta de nota,
+# esta automação cria o ficheiro da nota e abre um pedido de alteração (pull request).
+on:
+  issues:
+    types: [labeled]
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+
+jobs:
+  criar-nota:
+    if: github.event.label.name == 'aprovar' && contains(github.event.issue.labels.*.name, 'nova-nota')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Criar o ficheiro da nota
+        id: nota
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          ISSUE_USER: ${{ github.event.issue.user.login }}
+        run: python scripts/issue_para_nota.py
+      - name: Avisar na proposta que há correções a fazer
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+          NUMERO: ${{ github.event.issue.number }}
+        run: |
+          gh issue comment "$NUMERO" --body-file _erro.txt
+          gh issue edit "$NUMERO" --remove-label aprovar
+      - name: Abrir o pedido de alteração
+        if: success()
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: nota/proposta-${{ github.event.issue.number }}
+          commit-message: "Nota: ${{ steps.nota.outputs.ref }} (proposta #${{ github.event.issue.number }})"
+          title: "Nota: ${{ steps.nota.outputs.ref }}"
+          body: |
+            Nota criada a partir da proposta #${{ github.event.issue.number }}.
+            O verificador já confirmou o versículo, as citações e que não há referências ao que vem mais à frente.
+            Lê a nota em `${{ steps.nota.outputs.ficheiro }}` e junta-a (Merge) quando estiver bem.
+
+            Closes #${{ github.event.issue.number }}
+          labels: nova-nota

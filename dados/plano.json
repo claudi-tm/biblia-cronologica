@@ -1,0 +1,6255 @@
+{
+ "versao": 1,
+ "versificacao": "protestante padrão (pythonbible); confirmar com o texto da Almeida na fase 3",
+ "total": {
+  "dias": 365,
+  "capitulos": 1189,
+  "versiculos": 31102
+ },
+ "epocas": [
+  {
+   "id": 1,
+   "nome": "Origens",
+   "datas": "antes de 2000 a.C.",
+   "testamento": "AT",
+   "cor": "AT",
+   "visual": "genealogia-adao-abraao",
+   "resumo": "Da criação ao dilúvio e à torre de Babel. Mostra de onde vem o mundo, como entrou o pecado e a primeira promessa de Deus.",
+   "dia_inicio": 1,
+   "dia_fim": 3,
+   "n_dias": 3
+  },
+  {
+   "id": 2,
+   "nome": "Patriarcas",
+   "datas": "c. 2000–1800 a.C.",
+   "testamento": "AT",
+   "cor": "AT",
+   "visual": "arvore-12-tribos",
+   "resumo": "Deus chama Abraão e promete-lhe uma terra e uma descendência. A promessa passa a Isaque, Jacó e José, e a família acaba no Egito. Jó vive, provavelmente, nesta época.",
+   "dia_inicio": 4,
+   "dia_fim": 29,
+   "n_dias": 26
+  },
+  {
+   "id": 3,
+   "nome": "Êxodo e deserto",
+   "datas": "c. 1446–1406 a.C.",
+   "testamento": "AT",
+   "cor": "AT",
+   "visual": "rota-exodo",
+   "resumo": "Deus liberta Israel da escravidão no Egito, dá a Lei no monte Sinai e conduz o povo durante 40 anos pelo deserto, até à fronteira de Canaã.",
+   "dia_inicio": 30,
+   "dia_fim": 76,
+   "n_dias": 47
+  },
+  {
+   "id": 4,
+   "nome": "Conquista e juízes",
+   "datas": "c. 1406–1050 a.C.",
+   "testamento": "AT",
+   "cor": "AT",
+   "visual": "mapa-tribos-canaa",
+   "resumo": "Josué conduz a entrada em Canaã. Depois vêm ciclos de desobediência, opressão e libertação pelos juízes. Rute mostra fidelidade num tempo difícil.",
+   "dia_inicio": 77,
+   "dia_fim": 92,
+   "n_dias": 16
+  },
+  {
+   "id": 5,
+   "nome": "Reino unido",
+   "datas": "c. 1050–930 a.C.",
+   "testamento": "AT",
+   "cor": "AT",
+   "visual": "arvore-davi-jesus",
+   "resumo": "Saul, Davi e Salomão reinam sobre as 12 tribos. Davi recebe a promessa de um reino eterno e escreve muitos dos Salmos. Salomão constrói o templo.",
+   "dia_inicio": 93,
+   "dia_fim": 177,
+   "n_dias": 85
+  },
+  {
+   "id": 6,
+   "nome": "Reino dividido",
+   "datas": "930–722 a.C.",
+   "testamento": "AT",
+   "cor": "AT",
+   "visual": "tabela-reis",
+   "resumo": "O reino parte-se em Israel, a norte, e Judá, a sul. Os profetas avisam reis e povo, até que a Assíria destrói Israel e a sua capital, Samaria, em 722 a.C.",
+   "dia_inicio": 178,
+   "dia_fim": 210,
+   "n_dias": 33
+  },
+  {
+   "id": 7,
+   "nome": "Judá sozinho",
+   "datas": "722–586 a.C.",
+   "testamento": "AT",
+   "cor": "AT",
+   "visual": "tabela-reis-juda",
+   "resumo": "Judá resiste mais um século, com as reformas de Ezequias e Josias, até a Babilónia destruir Jerusalém e o templo em 586 a.C.",
+   "dia_inicio": 211,
+   "dia_fim": 244,
+   "n_dias": 34
+  },
+  {
+   "id": 8,
+   "nome": "Exílio",
+   "datas": "586–538 a.C.",
+   "testamento": "AT",
+   "cor": "AT",
+   "visual": "mapa-babilonia",
+   "resumo": "O povo vive deportado na Babilónia. Ezequiel e Daniel mostram que Deus continua presente, mesmo longe da terra e sem templo.",
+   "dia_inicio": 245,
+   "dia_fim": 263,
+   "n_dias": 19
+  },
+  {
+   "id": 9,
+   "nome": "Retorno",
+   "datas": "538–430 a.C.",
+   "testamento": "AT",
+   "cor": "AT",
+   "visual": "linha-regressos",
+   "resumo": "A Pérsia autoriza o regresso. Os judeus reconstroem o templo e as muralhas de Jerusalém. Malaquias fecha o Antigo Testamento.",
+   "dia_inicio": 264,
+   "dia_fim": 278,
+   "n_dias": 15
+  },
+  {
+   "id": 10,
+   "nome": "Vida de Jesus",
+   "datas": "c. 4 a.C.–30 d.C.",
+   "testamento": "NT",
+   "cor": "NT",
+   "visual": "mapa-galileia-judeia",
+   "resumo": "Nascimento, ministério, morte e ressurreição de Jesus. Os quatro Evangelhos são lidos em harmonia, com os mesmos acontecimentos juntos.",
+   "dia_inicio": 279,
+   "dia_fim": 314,
+   "n_dias": 36
+  },
+  {
+   "id": 11,
+   "nome": "Igreja primitiva",
+   "datas": "30–60 d.C.",
+   "testamento": "NT",
+   "cor": "NT",
+   "visual": "viagens-paulo",
+   "resumo": "A igreja nasce em Jerusalém e espalha-se pelo império. As primeiras cartas de Paulo e Tiago entram no momento em que foram escritas.",
+   "dia_inicio": 315,
+   "dia_fim": 343,
+   "n_dias": 29
+  },
+  {
+   "id": 12,
+   "nome": "Últimas cartas",
+   "datas": "60–95 d.C.",
+   "testamento": "NT",
+   "cor": "NT",
+   "visual": "linha-cartas",
+   "resumo": "Cartas escritas na prisão e no fim da vida dos apóstolos, até ao Apocalipse de João.",
+   "dia_inicio": 344,
+   "dia_fim": 365,
+   "n_dias": 22
+  }
+ ],
+ "dias": [
+  {
+   "dia": 1,
+   "epoca": 1,
+   "passagens": [
+    {
+     "livro": "Génesis",
+     "codigo": "GEN",
+     "ci": 1,
+     "cf": 4
+    }
+   ],
+   "titulo": "Génesis 1–4",
+   "capitulos": 4.0
+  },
+  {
+   "dia": 2,
+   "epoca": 1,
+   "passagens": [
+    {
+     "livro": "Génesis",
+     "codigo": "GEN",
+     "ci": 5,
+     "cf": 7
+    }
+   ],
+   "titulo": "Génesis 5–7",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 3,
+   "epoca": 1,
+   "passagens": [
+    {
+     "livro": "Génesis",
+     "codigo": "GEN",
+     "ci": 8,
+     "cf": 11
+    }
+   ],
+   "titulo": "Génesis 8–11",
+   "capitulos": 4.0
+  },
+  {
+   "dia": 4,
+   "epoca": 2,
+   "passagens": [
+    {
+     "livro": "Génesis",
+     "codigo": "GEN",
+     "ci": 12,
+     "cf": 15
+    }
+   ],
+   "titulo": "Génesis 12–15",
+   "capitulos": 4.0
+  },
+  {
+   "dia": 5,
+   "epoca": 2,
+   "passagens": [
+    {
+     "livro": "Génesis",
+     "codigo": "GEN",
+     "ci": 16,
+     "cf": 18
+    }
+   ],
+   "titulo": "Génesis 16–18",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 6,
+   "epoca": 2,
+   "passagens": [
+    {
+     "livro": "Génesis",
+     "codigo": "GEN",
+     "ci": 19,
+     "cf": 21
+    }
+   ],
+   "titulo": "Génesis 19–21",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 7,
+   "epoca": 2,
+   "passagens": [
+    {
+     "livro": "Génesis",
+     "codigo": "GEN",
+     "ci": 22,
+     "cf": 24
+    }
+   ],
+   "titulo": "Génesis 22–24",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 8,
+   "epoca": 2,
+   "passagens": [
+    {
+     "livro": "Génesis",
+     "codigo": "GEN",
+     "ci": 25,
+     "cf": 26
+    }
+   ],
+   "titulo": "Génesis 25–26",
+   "capitulos": 2.0
+  },
+  {
+   "dia": 9,
+   "epoca": 2,
+   "passagens": [
+    {
+     "livro": "Génesis",
+     "codigo": "GEN",
+     "ci": 27,
+     "cf": 29
+    }
+   ],
+   "titulo": "Génesis 27–29",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 10,
+   "epoca": 2,
+   "passagens": [
+    {
+     "livro": "Génesis",
+     "codigo": "GEN",
+     "ci": 30,
+     "cf": 32
+    }
+   ],
+   "titulo": "Génesis 30–32",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 11,
+   "epoca": 2,
+   "passagens": [
+    {
+     "livro": "Génesis",
+     "codigo": "GEN",
+     "ci": 33,
+     "cf": 35
+    }
+   ],
+   "titulo": "Génesis 33–35",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 12,
+   "epoca": 2,
+   "passagens": [
+    {
+     "livro": "Génesis",
+     "codigo": "GEN",
+     "ci": 36,
+     "cf": 38
+    }
+   ],
+   "titulo": "Génesis 36–38",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 13,
+   "epoca": 2,
+   "passagens": [
+    {
+     "livro": "Génesis",
+     "codigo": "GEN",
+     "ci": 39,
+     "cf": 41
+    }
+   ],
+   "titulo": "Génesis 39–41",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 14,
+   "epoca": 2,
+   "passagens": [
+    {
+     "livro": "Génesis",
+     "codigo": "GEN",
+     "ci": 42,
+     "cf": 43
+    }
+   ],
+   "titulo": "Génesis 42–43",
+   "capitulos": 2.0
+  },
+  {
+   "dia": 15,
+   "epoca": 2,
+   "passagens": [
+    {
+     "livro": "Génesis",
+     "codigo": "GEN",
+     "ci": 44,
+     "cf": 46
+    }
+   ],
+   "titulo": "Génesis 44–46",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 16,
+   "epoca": 2,
+   "passagens": [
+    {
+     "livro": "Génesis",
+     "codigo": "GEN",
+     "ci": 47,
+     "cf": 49
+    }
+   ],
+   "titulo": "Génesis 47–49",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 17,
+   "epoca": 2,
+   "passagens": [
+    {
+     "livro": "Génesis",
+     "codigo": "GEN",
+     "ci": 50,
+     "cf": 50
+    },
+    {
+     "livro": "Jó",
+     "codigo": "JOB",
+     "ci": 1,
+     "cf": 3
+    }
+   ],
+   "titulo": "Génesis 50; Jó 1–3",
+   "capitulos": 4.0
+  },
+  {
+   "dia": 18,
+   "epoca": 2,
+   "passagens": [
+    {
+     "livro": "Jó",
+     "codigo": "JOB",
+     "ci": 4,
+     "cf": 6
+    }
+   ],
+   "titulo": "Jó 4–6",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 19,
+   "epoca": 2,
+   "passagens": [
+    {
+     "livro": "Jó",
+     "codigo": "JOB",
+     "ci": 7,
+     "cf": 9
+    }
+   ],
+   "titulo": "Jó 7–9",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 20,
+   "epoca": 2,
+   "passagens": [
+    {
+     "livro": "Jó",
+     "codigo": "JOB",
+     "ci": 10,
+     "cf": 13
+    }
+   ],
+   "titulo": "Jó 10–13",
+   "capitulos": 4.0
+  },
+  {
+   "dia": 21,
+   "epoca": 2,
+   "passagens": [
+    {
+     "livro": "Jó",
+     "codigo": "JOB",
+     "ci": 14,
+     "cf": 16
+    }
+   ],
+   "titulo": "Jó 14–16",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 22,
+   "epoca": 2,
+   "passagens": [
+    {
+     "livro": "Jó",
+     "codigo": "JOB",
+     "ci": 17,
+     "cf": 19
+    }
+   ],
+   "titulo": "Jó 17–19",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 23,
+   "epoca": 2,
+   "passagens": [
+    {
+     "livro": "Jó",
+     "codigo": "JOB",
+     "ci": 20,
+     "cf": 23
+    }
+   ],
+   "titulo": "Jó 20–23",
+   "capitulos": 4.0
+  },
+  {
+   "dia": 24,
+   "epoca": 2,
+   "passagens": [
+    {
+     "livro": "Jó",
+     "codigo": "JOB",
+     "ci": 24,
+     "cf": 27
+    }
+   ],
+   "titulo": "Jó 24–27",
+   "capitulos": 4.0
+  },
+  {
+   "dia": 25,
+   "epoca": 2,
+   "passagens": [
+    {
+     "livro": "Jó",
+     "codigo": "JOB",
+     "ci": 28,
+     "cf": 30
+    }
+   ],
+   "titulo": "Jó 28–30",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 26,
+   "epoca": 2,
+   "passagens": [
+    {
+     "livro": "Jó",
+     "codigo": "JOB",
+     "ci": 31,
+     "cf": 33
+    }
+   ],
+   "titulo": "Jó 31–33",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 27,
+   "epoca": 2,
+   "passagens": [
+    {
+     "livro": "Jó",
+     "codigo": "JOB",
+     "ci": 34,
+     "cf": 36
+    }
+   ],
+   "titulo": "Jó 34–36",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 28,
+   "epoca": 2,
+   "passagens": [
+    {
+     "livro": "Jó",
+     "codigo": "JOB",
+     "ci": 37,
+     "cf": 39
+    }
+   ],
+   "titulo": "Jó 37–39",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 29,
+   "epoca": 2,
+   "passagens": [
+    {
+     "livro": "Jó",
+     "codigo": "JOB",
+     "ci": 40,
+     "cf": 42
+    }
+   ],
+   "titulo": "Jó 40–42",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 30,
+   "epoca": 3,
+   "passagens": [
+    {
+     "livro": "Êxodo",
+     "codigo": "EXO",
+     "ci": 1,
+     "cf": 3
+    }
+   ],
+   "titulo": "Êxodo 1–3",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 31,
+   "epoca": 3,
+   "passagens": [
+    {
+     "livro": "Êxodo",
+     "codigo": "EXO",
+     "ci": 4,
+     "cf": 7
+    }
+   ],
+   "titulo": "Êxodo 4–7",
+   "capitulos": 4.0
+  },
+  {
+   "dia": 32,
+   "epoca": 3,
+   "passagens": [
+    {
+     "livro": "Êxodo",
+     "codigo": "EXO",
+     "ci": 8,
+     "cf": 9
+    }
+   ],
+   "titulo": "Êxodo 8–9",
+   "capitulos": 2.0
+  },
+  {
+   "dia": 33,
+   "epoca": 3,
+   "passagens": [
+    {
+     "livro": "Êxodo",
+     "codigo": "EXO",
+     "ci": 10,
+     "cf": 13
+    }
+   ],
+   "titulo": "Êxodo 10–13",
+   "capitulos": 4.0
+  },
+  {
+   "dia": 34,
+   "epoca": 3,
+   "passagens": [
+    {
+     "livro": "Êxodo",
+     "codigo": "EXO",
+     "ci": 14,
+     "cf": 16
+    }
+   ],
+   "titulo": "Êxodo 14–16",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 35,
+   "epoca": 3,
+   "passagens": [
+    {
+     "livro": "Êxodo",
+     "codigo": "EXO",
+     "ci": 17,
+     "cf": 19
+    }
+   ],
+   "titulo": "Êxodo 17–19",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 36,
+   "epoca": 3,
+   "passagens": [
+    {
+     "livro": "Êxodo",
+     "codigo": "EXO",
+     "ci": 20,
+     "cf": 22
+    }
+   ],
+   "titulo": "Êxodo 20–22",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 37,
+   "epoca": 3,
+   "passagens": [
+    {
+     "livro": "Êxodo",
+     "codigo": "EXO",
+     "ci": 23,
+     "cf": 25
+    }
+   ],
+   "titulo": "Êxodo 23–25",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 38,
+   "epoca": 3,
+   "passagens": [
+    {
+     "livro": "Êxodo",
+     "codigo": "EXO",
+     "ci": 26,
+     "cf": 28
+    }
+   ],
+   "titulo": "Êxodo 26–28",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 39,
+   "epoca": 3,
+   "passagens": [
+    {
+     "livro": "Êxodo",
+     "codigo": "EXO",
+     "ci": 29,
+     "cf": 30
+    }
+   ],
+   "titulo": "Êxodo 29–30",
+   "capitulos": 2.0
+  },
+  {
+   "dia": 40,
+   "epoca": 3,
+   "passagens": [
+    {
+     "livro": "Êxodo",
+     "codigo": "EXO",
+     "ci": 31,
+     "cf": 34
+    }
+   ],
+   "titulo": "Êxodo 31–34",
+   "capitulos": 4.0
+  },
+  {
+   "dia": 41,
+   "epoca": 3,
+   "passagens": [
+    {
+     "livro": "Êxodo",
+     "codigo": "EXO",
+     "ci": 35,
+     "cf": 36
+    }
+   ],
+   "titulo": "Êxodo 35–36",
+   "capitulos": 2.0
+  },
+  {
+   "dia": 42,
+   "epoca": 3,
+   "passagens": [
+    {
+     "livro": "Êxodo",
+     "codigo": "EXO",
+     "ci": 37,
+     "cf": 39
+    }
+   ],
+   "titulo": "Êxodo 37–39",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 43,
+   "epoca": 3,
+   "passagens": [
+    {
+     "livro": "Êxodo",
+     "codigo": "EXO",
+     "ci": 40,
+     "cf": 40
+    },
+    {
+     "livro": "Levítico",
+     "codigo": "LEV",
+     "ci": 1,
+     "cf": 3
+    }
+   ],
+   "titulo": "Êxodo 40; Levítico 1–3",
+   "capitulos": 4.0
+  },
+  {
+   "dia": 44,
+   "epoca": 3,
+   "passagens": [
+    {
+     "livro": "Levítico",
+     "codigo": "LEV",
+     "ci": 4,
+     "cf": 6
+    }
+   ],
+   "titulo": "Levítico 4–6",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 45,
+   "epoca": 3,
+   "passagens": [
+    {
+     "livro": "Levítico",
+     "codigo": "LEV",
+     "ci": 7,
+     "cf": 9
+    }
+   ],
+   "titulo": "Levítico 7–9",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 46,
+   "epoca": 3,
+   "passagens": [
+    {
+     "livro": "Levítico",
+     "codigo": "LEV",
+     "ci": 10,
+     "cf": 12
+    }
+   ],
+   "titulo": "Levítico 10–12",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 47,
+   "epoca": 3,
+   "passagens": [
+    {
+     "livro": "Levítico",
+     "codigo": "LEV",
+     "ci": 13,
+     "cf": 14
+    }
+   ],
+   "titulo": "Levítico 13–14",
+   "capitulos": 2.0
+  },
+  {
+   "dia": 48,
+   "epoca": 3,
+   "passagens": [
+    {
+     "livro": "Levítico",
+     "codigo": "LEV",
+     "ci": 15,
+     "cf": 17
+    }
+   ],
+   "titulo": "Levítico 15–17",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 49,
+   "epoca": 3,
+   "passagens": [
+    {
+     "livro": "Levítico",
+     "codigo": "LEV",
+     "ci": 18,
+     "cf": 20
+    }
+   ],
+   "titulo": "Levítico 18–20",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 50,
+   "epoca": 3,
+   "passagens": [
+    {
+     "livro": "Levítico",
+     "codigo": "LEV",
+     "ci": 21,
+     "cf": 23
+    }
+   ],
+   "titulo": "Levítico 21–23",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 51,
+   "epoca": 3,
+   "passagens": [
+    {
+     "livro": "Levítico",
+     "codigo": "LEV",
+     "ci": 24,
+     "cf": 25
+    }
+   ],
+   "titulo": "Levítico 24–25",
+   "capitulos": 2.0
+  },
+  {
+   "dia": 52,
+   "epoca": 3,
+   "passagens": [
+    {
+     "livro": "Levítico",
+     "codigo": "LEV",
+     "ci": 26,
+     "cf": 27
+    },
+    {
+     "livro": "Números",
+     "codigo": "NUM",
+     "ci": 1,
+     "cf": 1
+    }
+   ],
+   "titulo": "Levítico 26–27; Números 1",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 53,
+   "epoca": 3,
+   "passagens": [
+    {
+     "livro": "Números",
+     "codigo": "NUM",
+     "ci": 2,
+     "cf": 3
+    }
+   ],
+   "titulo": "Números 2–3",
+   "capitulos": 2.0
+  },
+  {
+   "dia": 54,
+   "epoca": 3,
+   "passagens": [
+    {
+     "livro": "Números",
+     "codigo": "NUM",
+     "ci": 4,
+     "cf": 6
+    }
+   ],
+   "titulo": "Números 4–6",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 55,
+   "epoca": 3,
+   "passagens": [
+    {
+     "livro": "Números",
+     "codigo": "NUM",
+     "ci": 7,
+     "cf": 8
+    }
+   ],
+   "titulo": "Números 7–8",
+   "capitulos": 2.0
+  },
+  {
+   "dia": 56,
+   "epoca": 3,
+   "passagens": [
+    {
+     "livro": "Números",
+     "codigo": "NUM",
+     "ci": 9,
+     "cf": 11
+    }
+   ],
+   "titulo": "Números 9–11",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 57,
+   "epoca": 3,
+   "passagens": [
+    {
+     "livro": "Números",
+     "codigo": "NUM",
+     "ci": 12,
+     "cf": 14
+    }
+   ],
+   "titulo": "Números 12–14",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 58,
+   "epoca": 3,
+   "passagens": [
+    {
+     "livro": "Salmos",
+     "codigo": "PSA",
+     "ci": 90,
+     "cf": 90
+    },
+    {
+     "livro": "Números",
+     "codigo": "NUM",
+     "ci": 15,
+     "cf": 16
+    }
+   ],
+   "titulo": "Salmos 90; Números 15–16",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 59,
+   "epoca": 3,
+   "passagens": [
+    {
+     "livro": "Números",
+     "codigo": "NUM",
+     "ci": 17,
+     "cf": 19
+    }
+   ],
+   "titulo": "Números 17–19",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 60,
+   "epoca": 3,
+   "passagens": [
+    {
+     "livro": "Números",
+     "codigo": "NUM",
+     "ci": 20,
+     "cf": 22
+    }
+   ],
+   "titulo": "Números 20–22",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 61,
+   "epoca": 3,
+   "passagens": [
+    {
+     "livro": "Números",
+     "codigo": "NUM",
+     "ci": 23,
+     "cf": 25
+    }
+   ],
+   "titulo": "Números 23–25",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 62,
+   "epoca": 3,
+   "passagens": [
+    {
+     "livro": "Números",
+     "codigo": "NUM",
+     "ci": 26,
+     "cf": 28
+    }
+   ],
+   "titulo": "Números 26–28",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 63,
+   "epoca": 3,
+   "passagens": [
+    {
+     "livro": "Números",
+     "codigo": "NUM",
+     "ci": 29,
+     "cf": 30
+    }
+   ],
+   "titulo": "Números 29–30",
+   "capitulos": 2.0
+  },
+  {
+   "dia": 64,
+   "epoca": 3,
+   "passagens": [
+    {
+     "livro": "Números",
+     "codigo": "NUM",
+     "ci": 31,
+     "cf": 33
+    }
+   ],
+   "titulo": "Números 31–33",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 65,
+   "epoca": 3,
+   "passagens": [
+    {
+     "livro": "Números",
+     "codigo": "NUM",
+     "ci": 34,
+     "cf": 36
+    }
+   ],
+   "titulo": "Números 34–36",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 66,
+   "epoca": 3,
+   "passagens": [
+    {
+     "livro": "Deuteronómio",
+     "codigo": "DEU",
+     "ci": 1,
+     "cf": 2
+    }
+   ],
+   "titulo": "Deuteronómio 1–2",
+   "capitulos": 2.0
+  },
+  {
+   "dia": 67,
+   "epoca": 3,
+   "passagens": [
+    {
+     "livro": "Deuteronómio",
+     "codigo": "DEU",
+     "ci": 3,
+     "cf": 5
+    }
+   ],
+   "titulo": "Deuteronómio 3–5",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 68,
+   "epoca": 3,
+   "passagens": [
+    {
+     "livro": "Deuteronómio",
+     "codigo": "DEU",
+     "ci": 6,
+     "cf": 8
+    }
+   ],
+   "titulo": "Deuteronómio 6–8",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 69,
+   "epoca": 3,
+   "passagens": [
+    {
+     "livro": "Deuteronómio",
+     "codigo": "DEU",
+     "ci": 9,
+     "cf": 12
+    }
+   ],
+   "titulo": "Deuteronómio 9–12",
+   "capitulos": 4.0
+  },
+  {
+   "dia": 70,
+   "epoca": 3,
+   "passagens": [
+    {
+     "livro": "Deuteronómio",
+     "codigo": "DEU",
+     "ci": 13,
+     "cf": 15
+    }
+   ],
+   "titulo": "Deuteronómio 13–15",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 71,
+   "epoca": 3,
+   "passagens": [
+    {
+     "livro": "Deuteronómio",
+     "codigo": "DEU",
+     "ci": 16,
+     "cf": 18
+    }
+   ],
+   "titulo": "Deuteronómio 16–18",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 72,
+   "epoca": 3,
+   "passagens": [
+    {
+     "livro": "Deuteronómio",
+     "codigo": "DEU",
+     "ci": 19,
+     "cf": 22
+    }
+   ],
+   "titulo": "Deuteronómio 19–22",
+   "capitulos": 4.0
+  },
+  {
+   "dia": 73,
+   "epoca": 3,
+   "passagens": [
+    {
+     "livro": "Deuteronómio",
+     "codigo": "DEU",
+     "ci": 23,
+     "cf": 25
+    }
+   ],
+   "titulo": "Deuteronómio 23–25",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 74,
+   "epoca": 3,
+   "passagens": [
+    {
+     "livro": "Deuteronómio",
+     "codigo": "DEU",
+     "ci": 26,
+     "cf": 28
+    }
+   ],
+   "titulo": "Deuteronómio 26–28",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 75,
+   "epoca": 3,
+   "passagens": [
+    {
+     "livro": "Deuteronómio",
+     "codigo": "DEU",
+     "ci": 29,
+     "cf": 31
+    }
+   ],
+   "titulo": "Deuteronómio 29–31",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 76,
+   "epoca": 3,
+   "passagens": [
+    {
+     "livro": "Deuteronómio",
+     "codigo": "DEU",
+     "ci": 32,
+     "cf": 34
+    }
+   ],
+   "titulo": "Deuteronómio 32–34",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 77,
+   "epoca": 4,
+   "passagens": [
+    {
+     "livro": "Josué",
+     "codigo": "JOS",
+     "ci": 1,
+     "cf": 4
+    }
+   ],
+   "titulo": "Josué 1–4",
+   "capitulos": 4.0
+  },
+  {
+   "dia": 78,
+   "epoca": 4,
+   "passagens": [
+    {
+     "livro": "Josué",
+     "codigo": "JOS",
+     "ci": 5,
+     "cf": 7
+    }
+   ],
+   "titulo": "Josué 5–7",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 79,
+   "epoca": 4,
+   "passagens": [
+    {
+     "livro": "Josué",
+     "codigo": "JOS",
+     "ci": 8,
+     "cf": 10
+    }
+   ],
+   "titulo": "Josué 8–10",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 80,
+   "epoca": 4,
+   "passagens": [
+    {
+     "livro": "Josué",
+     "codigo": "JOS",
+     "ci": 11,
+     "cf": 13
+    }
+   ],
+   "titulo": "Josué 11–13",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 81,
+   "epoca": 4,
+   "passagens": [
+    {
+     "livro": "Josué",
+     "codigo": "JOS",
+     "ci": 14,
+     "cf": 16
+    }
+   ],
+   "titulo": "Josué 14–16",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 82,
+   "epoca": 4,
+   "passagens": [
+    {
+     "livro": "Josué",
+     "codigo": "JOS",
+     "ci": 17,
+     "cf": 19
+    }
+   ],
+   "titulo": "Josué 17–19",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 83,
+   "epoca": 4,
+   "passagens": [
+    {
+     "livro": "Josué",
+     "codigo": "JOS",
+     "ci": 20,
+     "cf": 22
+    }
+   ],
+   "titulo": "Josué 20–22",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 84,
+   "epoca": 4,
+   "passagens": [
+    {
+     "livro": "Josué",
+     "codigo": "JOS",
+     "ci": 23,
+     "cf": 24
+    },
+    {
+     "livro": "Juízes",
+     "codigo": "JDG",
+     "ci": 1,
+     "cf": 1
+    }
+   ],
+   "titulo": "Josué 23–24; Juízes 1",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 85,
+   "epoca": 4,
+   "passagens": [
+    {
+     "livro": "Juízes",
+     "codigo": "JDG",
+     "ci": 2,
+     "cf": 4
+    }
+   ],
+   "titulo": "Juízes 2–4",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 86,
+   "epoca": 4,
+   "passagens": [
+    {
+     "livro": "Juízes",
+     "codigo": "JDG",
+     "ci": 5,
+     "cf": 6
+    }
+   ],
+   "titulo": "Juízes 5–6",
+   "capitulos": 2.0
+  },
+  {
+   "dia": 87,
+   "epoca": 4,
+   "passagens": [
+    {
+     "livro": "Juízes",
+     "codigo": "JDG",
+     "ci": 7,
+     "cf": 9
+    }
+   ],
+   "titulo": "Juízes 7–9",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 88,
+   "epoca": 4,
+   "passagens": [
+    {
+     "livro": "Juízes",
+     "codigo": "JDG",
+     "ci": 10,
+     "cf": 12
+    }
+   ],
+   "titulo": "Juízes 10–12",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 89,
+   "epoca": 4,
+   "passagens": [
+    {
+     "livro": "Juízes",
+     "codigo": "JDG",
+     "ci": 13,
+     "cf": 16
+    }
+   ],
+   "titulo": "Juízes 13–16",
+   "capitulos": 4.0
+  },
+  {
+   "dia": 90,
+   "epoca": 4,
+   "passagens": [
+    {
+     "livro": "Juízes",
+     "codigo": "JDG",
+     "ci": 17,
+     "cf": 19
+    }
+   ],
+   "titulo": "Juízes 17–19",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 91,
+   "epoca": 4,
+   "passagens": [
+    {
+     "livro": "Juízes",
+     "codigo": "JDG",
+     "ci": 20,
+     "cf": 21
+    },
+    {
+     "livro": "Rute",
+     "codigo": "RUT",
+     "ci": 1,
+     "cf": 1
+    }
+   ],
+   "titulo": "Juízes 20–21; Rute 1",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 92,
+   "epoca": 4,
+   "passagens": [
+    {
+     "livro": "Rute",
+     "codigo": "RUT",
+     "ci": 2,
+     "cf": 4
+    }
+   ],
+   "titulo": "Rute 2–4",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 93,
+   "epoca": 5,
+   "passagens": [
+    {
+     "livro": "1 Samuel",
+     "codigo": "1SA",
+     "ci": 1,
+     "cf": 3
+    }
+   ],
+   "titulo": "1 Samuel 1–3",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 94,
+   "epoca": 5,
+   "passagens": [
+    {
+     "livro": "1 Samuel",
+     "codigo": "1SA",
+     "ci": 4,
+     "cf": 7
+    }
+   ],
+   "titulo": "1 Samuel 4–7",
+   "capitulos": 4.0
+  },
+  {
+   "dia": 95,
+   "epoca": 5,
+   "passagens": [
+    {
+     "livro": "1 Samuel",
+     "codigo": "1SA",
+     "ci": 8,
+     "cf": 10
+    }
+   ],
+   "titulo": "1 Samuel 8–10",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 96,
+   "epoca": 5,
+   "passagens": [
+    {
+     "livro": "1 Samuel",
+     "codigo": "1SA",
+     "ci": 11,
+     "cf": 14
+    }
+   ],
+   "titulo": "1 Samuel 11–14",
+   "capitulos": 4.0
+  },
+  {
+   "dia": 97,
+   "epoca": 5,
+   "passagens": [
+    {
+     "livro": "1 Samuel",
+     "codigo": "1SA",
+     "ci": 15,
+     "cf": 16
+    }
+   ],
+   "titulo": "1 Samuel 15–16",
+   "capitulos": 2.0
+  },
+  {
+   "dia": 98,
+   "epoca": 5,
+   "passagens": [
+    {
+     "livro": "1 Samuel",
+     "codigo": "1SA",
+     "ci": 17,
+     "cf": 19
+    }
+   ],
+   "titulo": "1 Samuel 17–19",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 99,
+   "epoca": 5,
+   "passagens": [
+    {
+     "livro": "Salmos",
+     "codigo": "PSA",
+     "ci": 59,
+     "cf": 59
+    },
+    {
+     "livro": "1 Samuel",
+     "codigo": "1SA",
+     "ci": 20,
+     "cf": 21
+    },
+    {
+     "livro": "Salmos",
+     "codigo": "PSA",
+     "ci": 34,
+     "cf": 34
+    }
+   ],
+   "titulo": "Salmos 59; 1 Samuel 20–21; Salmos 34",
+   "capitulos": 4.0
+  },
+  {
+   "dia": 100,
+   "epoca": 5,
+   "passagens": [
+    {
+     "livro": "Salmos",
+     "codigo": "PSA",
+     "ci": 56,
+     "cf": 56
+    },
+    {
+     "livro": "1 Samuel",
+     "codigo": "1SA",
+     "ci": 22,
+     "cf": 22
+    },
+    {
+     "livro": "Salmos",
+     "codigo": "PSA",
+     "ci": 52,
+     "cf": 52
+    },
+    {
+     "livro": "Salmos",
+     "codigo": "PSA",
+     "ci": 142,
+     "cf": 142
+    }
+   ],
+   "titulo": "Salmos 56; 1 Samuel 22; Salmos 52, 142",
+   "capitulos": 4.0
+  },
+  {
+   "dia": 101,
+   "epoca": 5,
+   "passagens": [
+    {
+     "livro": "1 Samuel",
+     "codigo": "1SA",
+     "ci": 23,
+     "cf": 23
+    },
+    {
+     "livro": "Salmos",
+     "codigo": "PSA",
+     "ci": 54,
+     "cf": 54
+    },
+    {
+     "livro": "Salmos",
+     "codigo": "PSA",
+     "ci": 63,
+     "cf": 63
+    },
+    {
+     "livro": "1 Samuel",
+     "codigo": "1SA",
+     "ci": 24,
+     "cf": 24
+    }
+   ],
+   "titulo": "1 Samuel 23; Salmos 54, 63; 1 Samuel 24",
+   "capitulos": 4.0
+  },
+  {
+   "dia": 102,
+   "epoca": 5,
+   "passagens": [
+    {
+     "livro": "Salmos",
+     "codigo": "PSA",
+     "ci": 57,
+     "cf": 57
+    },
+    {
+     "livro": "Salmos",
+     "codigo": "PSA",
+     "ci": 1,
+     "cf": 2
+    },
+    {
+     "livro": "Salmos",
+     "codigo": "PSA",
+     "ci": 4,
+     "cf": 5
+    }
+   ],
+   "titulo": "Salmos 57, 1–2, 4–5",
+   "capitulos": 5.0
+  },
+  {
+   "dia": 103,
+   "epoca": 5,
+   "passagens": [
+    {
+     "livro": "Salmos",
+     "codigo": "PSA",
+     "ci": 6,
+     "cf": 9
+    }
+   ],
+   "titulo": "Salmos 6–9",
+   "capitulos": 4.0
+  },
+  {
+   "dia": 104,
+   "epoca": 5,
+   "passagens": [
+    {
+     "livro": "Salmos",
+     "codigo": "PSA",
+     "ci": 10,
+     "cf": 14
+    }
+   ],
+   "titulo": "Salmos 10–14",
+   "capitulos": 5.0
+  },
+  {
+   "dia": 105,
+   "epoca": 5,
+   "passagens": [
+    {
+     "livro": "Salmos",
+     "codigo": "PSA",
+     "ci": 15,
+     "cf": 17
+    },
+    {
+     "livro": "Salmos",
+     "codigo": "PSA",
+     "ci": 19,
+     "cf": 19
+    }
+   ],
+   "titulo": "Salmos 15–17, 19",
+   "capitulos": 4.0
+  },
+  {
+   "dia": 106,
+   "epoca": 5,
+   "passagens": [
+    {
+     "livro": "Salmos",
+     "codigo": "PSA",
+     "ci": 20,
+     "cf": 22
+    },
+    {
+     "livro": "1 Samuel",
+     "codigo": "1SA",
+     "ci": 25,
+     "cf": 25
+    }
+   ],
+   "titulo": "Salmos 20–22; 1 Samuel 25",
+   "capitulos": 4.0
+  },
+  {
+   "dia": 107,
+   "epoca": 5,
+   "passagens": [
+    {
+     "livro": "1 Samuel",
+     "codigo": "1SA",
+     "ci": 26,
+     "cf": 28
+    }
+   ],
+   "titulo": "1 Samuel 26–28",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 108,
+   "epoca": 5,
+   "passagens": [
+    {
+     "livro": "1 Samuel",
+     "codigo": "1SA",
+     "ci": 29,
+     "cf": 31
+    },
+    {
+     "livro": "1 Crónicas",
+     "codigo": "1CH",
+     "ci": 1,
+     "cf": 1
+    }
+   ],
+   "titulo": "1 Samuel 29–31; 1 Crónicas 1",
+   "capitulos": 4.0
+  },
+  {
+   "dia": 109,
+   "epoca": 5,
+   "passagens": [
+    {
+     "livro": "1 Crónicas",
+     "codigo": "1CH",
+     "ci": 2,
+     "cf": 3
+    }
+   ],
+   "titulo": "1 Crónicas 2–3",
+   "capitulos": 2.0
+  },
+  {
+   "dia": 110,
+   "epoca": 5,
+   "passagens": [
+    {
+     "livro": "1 Crónicas",
+     "codigo": "1CH",
+     "ci": 4,
+     "cf": 6
+    }
+   ],
+   "titulo": "1 Crónicas 4–6",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 111,
+   "epoca": 5,
+   "passagens": [
+    {
+     "livro": "1 Crónicas",
+     "codigo": "1CH",
+     "ci": 7,
+     "cf": 8
+    }
+   ],
+   "titulo": "1 Crónicas 7–8",
+   "capitulos": 2.0
+  },
+  {
+   "dia": 112,
+   "epoca": 5,
+   "passagens": [
+    {
+     "livro": "1 Crónicas",
+     "codigo": "1CH",
+     "ci": 9,
+     "cf": 10
+    },
+    {
+     "livro": "2 Samuel",
+     "codigo": "2SA",
+     "ci": 1,
+     "cf": 1
+    }
+   ],
+   "titulo": "1 Crónicas 9–10; 2 Samuel 1",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 113,
+   "epoca": 5,
+   "passagens": [
+    {
+     "livro": "2 Samuel",
+     "codigo": "2SA",
+     "ci": 2,
+     "cf": 4
+    }
+   ],
+   "titulo": "2 Samuel 2–4",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 114,
+   "epoca": 5,
+   "passagens": [
+    {
+     "livro": "2 Samuel",
+     "codigo": "2SA",
+     "ci": 5,
+     "cf": 5
+    },
+    {
+     "livro": "1 Crónicas",
+     "codigo": "1CH",
+     "ci": 11,
+     "cf": 12
+    }
+   ],
+   "titulo": "2 Samuel 5; 1 Crónicas 11–12",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 115,
+   "epoca": 5,
+   "passagens": [
+    {
+     "livro": "Salmos",
+     "codigo": "PSA",
+     "ci": 23,
+     "cf": 26
+    }
+   ],
+   "titulo": "Salmos 23–26",
+   "capitulos": 4.0
+  },
+  {
+   "dia": 116,
+   "epoca": 5,
+   "passagens": [
+    {
+     "livro": "Salmos",
+     "codigo": "PSA",
+     "ci": 27,
+     "cf": 29
+    },
+    {
+     "livro": "Salmos",
+     "codigo": "PSA",
+     "ci": 31,
+     "cf": 31
+    }
+   ],
+   "titulo": "Salmos 27–29, 31",
+   "capitulos": 4.0
+  },
+  {
+   "dia": 117,
+   "epoca": 5,
+   "passagens": [
+    {
+     "livro": "Salmos",
+     "codigo": "PSA",
+     "ci": 33,
+     "cf": 33
+    },
+    {
+     "livro": "Salmos",
+     "codigo": "PSA",
+     "ci": 35,
+     "cf": 37
+    }
+   ],
+   "titulo": "Salmos 33, 35–37",
+   "capitulos": 4.0
+  },
+  {
+   "dia": 118,
+   "epoca": 5,
+   "passagens": [
+    {
+     "livro": "Salmos",
+     "codigo": "PSA",
+     "ci": 38,
+     "cf": 40
+    }
+   ],
+   "titulo": "Salmos 38–40",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 119,
+   "epoca": 5,
+   "passagens": [
+    {
+     "livro": "Salmos",
+     "codigo": "PSA",
+     "ci": 41,
+     "cf": 45
+    }
+   ],
+   "titulo": "Salmos 41–45",
+   "capitulos": 5.0
+  },
+  {
+   "dia": 120,
+   "epoca": 5,
+   "passagens": [
+    {
+     "livro": "Salmos",
+     "codigo": "PSA",
+     "ci": 46,
+     "cf": 46
+    },
+    {
+     "livro": "2 Samuel",
+     "codigo": "2SA",
+     "ci": 6,
+     "cf": 6
+    },
+    {
+     "livro": "1 Crónicas",
+     "codigo": "1CH",
+     "ci": 13,
+     "cf": 14
+    }
+   ],
+   "titulo": "Salmos 46; 2 Samuel 6; 1 Crónicas 13–14",
+   "capitulos": 4.0
+  },
+  {
+   "dia": 121,
+   "epoca": 5,
+   "passagens": [
+    {
+     "livro": "1 Crónicas",
+     "codigo": "1CH",
+     "ci": 15,
+     "cf": 16
+    },
+    {
+     "livro": "Salmos",
+     "codigo": "PSA",
+     "ci": 96,
+     "cf": 96
+    }
+   ],
+   "titulo": "1 Crónicas 15–16; Salmos 96",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 122,
+   "epoca": 5,
+   "passagens": [
+    {
+     "livro": "Salmos",
+     "codigo": "PSA",
+     "ci": 105,
+     "cf": 106
+    }
+   ],
+   "titulo": "Salmos 105–106",
+   "capitulos": 2.0
+  },
+  {
+   "dia": 123,
+   "epoca": 5,
+   "passagens": [
+    {
+     "livro": "2 Samuel",
+     "codigo": "2SA",
+     "ci": 7,
+     "cf": 7
+    },
+    {
+     "livro": "1 Crónicas",
+     "codigo": "1CH",
+     "ci": 17,
+     "cf": 17
+    },
+    {
+     "livro": "2 Samuel",
+     "codigo": "2SA",
+     "ci": 8,
+     "cf": 8
+    },
+    {
+     "livro": "Salmos",
+     "codigo": "PSA",
+     "ci": 60,
+     "cf": 60
+    }
+   ],
+   "titulo": "2 Samuel 7; 1 Crónicas 17; 2 Samuel 8; Salmos 60",
+   "capitulos": 4.0
+  },
+  {
+   "dia": 124,
+   "epoca": 5,
+   "passagens": [
+    {
+     "livro": "1 Crónicas",
+     "codigo": "1CH",
+     "ci": 18,
+     "cf": 18
+    },
+    {
+     "livro": "2 Samuel",
+     "codigo": "2SA",
+     "ci": 9,
+     "cf": 10
+    },
+    {
+     "livro": "1 Crónicas",
+     "codigo": "1CH",
+     "ci": 19,
+     "cf": 19
+    }
+   ],
+   "titulo": "1 Crónicas 18; 2 Samuel 9–10; 1 Crónicas 19",
+   "capitulos": 4.0
+  },
+  {
+   "dia": 125,
+   "epoca": 5,
+   "passagens": [
+    {
+     "livro": "Salmos",
+     "codigo": "PSA",
+     "ci": 47,
+     "cf": 50
+    }
+   ],
+   "titulo": "Salmos 47–50",
+   "capitulos": 4.0
+  },
+  {
+   "dia": 126,
+   "epoca": 5,
+   "passagens": [
+    {
+     "livro": "Salmos",
+     "codigo": "PSA",
+     "ci": 53,
+     "cf": 53
+    },
+    {
+     "livro": "Salmos",
+     "codigo": "PSA",
+     "ci": 55,
+     "cf": 55
+    },
+    {
+     "livro": "Salmos",
+     "codigo": "PSA",
+     "ci": 58,
+     "cf": 58
+    },
+    {
+     "livro": "Salmos",
+     "codigo": "PSA",
+     "ci": 61,
+     "cf": 61
+    }
+   ],
+   "titulo": "Salmos 53, 55, 58, 61",
+   "capitulos": 4.0
+  },
+  {
+   "dia": 127,
+   "epoca": 5,
+   "passagens": [
+    {
+     "livro": "Salmos",
+     "codigo": "PSA",
+     "ci": 62,
+     "cf": 62
+    },
+    {
+     "livro": "Salmos",
+     "codigo": "PSA",
+     "ci": 64,
+     "cf": 67
+    }
+   ],
+   "titulo": "Salmos 62, 64–67",
+   "capitulos": 5.0
+  },
+  {
+   "dia": 128,
+   "epoca": 5,
+   "passagens": [
+    {
+     "livro": "Salmos",
+     "codigo": "PSA",
+     "ci": 68,
+     "cf": 70
+    }
+   ],
+   "titulo": "Salmos 68–70",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 129,
+   "epoca": 5,
+   "passagens": [
+    {
+     "livro": "Salmos",
+     "codigo": "PSA",
+     "ci": 71,
+     "cf": 71
+    },
+    {
+     "livro": "Salmos",
+     "codigo": "PSA",
+     "ci": 73,
+     "cf": 73
+    },
+    {
+     "livro": "Salmos",
+     "codigo": "PSA",
+     "ci": 75,
+     "cf": 76
+    }
+   ],
+   "titulo": "Salmos 71, 73, 75–76",
+   "capitulos": 4.0
+  },
+  {
+   "dia": 130,
+   "epoca": 5,
+   "passagens": [
+    {
+     "livro": "Salmos",
+     "codigo": "PSA",
+     "ci": 77,
+     "cf": 77
+    },
+    {
+     "livro": "2 Samuel",
+     "codigo": "2SA",
+     "ci": 11,
+     "cf": 11
+    },
+    {
+     "livro": "1 Crónicas",
+     "codigo": "1CH",
+     "ci": 20,
+     "cf": 20
+    },
+    {
+     "livro": "2 Samuel",
+     "codigo": "2SA",
+     "ci": 12,
+     "cf": 12
+    }
+   ],
+   "titulo": "Salmos 77; 2 Samuel 11; 1 Crónicas 20; 2 Samuel 12",
+   "capitulos": 4.0
+  },
+  {
+   "dia": 131,
+   "epoca": 5,
+   "passagens": [
+    {
+     "livro": "Salmos",
+     "codigo": "PSA",
+     "ci": 51,
+     "cf": 51
+    },
+    {
+     "livro": "Salmos",
+     "codigo": "PSA",
+     "ci": 32,
+     "cf": 32
+    },
+    {
+     "livro": "2 Samuel",
+     "codigo": "2SA",
+     "ci": 13,
+     "cf": 13
+    }
+   ],
+   "titulo": "Salmos 51, 32; 2 Samuel 13",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 132,
+   "epoca": 5,
+   "passagens": [
+    {
+     "livro": "2 Samuel",
+     "codigo": "2SA",
+     "ci": 14,
+     "cf": 15
+    },
+    {
+     "livro": "Salmos",
+     "codigo": "PSA",
+     "ci": 3,
+     "cf": 3
+    }
+   ],
+   "titulo": "2 Samuel 14–15; Salmos 3",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 133,
+   "epoca": 5,
+   "passagens": [
+    {
+     "livro": "Salmos",
+     "codigo": "PSA",
+     "ci": 78,
+     "cf": 78
+    },
+    {
+     "livro": "Salmos",
+     "codigo": "PSA",
+     "ci": 80,
+     "cf": 81
+    }
+   ],
+   "titulo": "Salmos 78, 80–81",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 134,
+   "epoca": 5,
+   "passagens": [
+    {
+     "livro": "Salmos",
+     "codigo": "PSA",
+     "ci": 82,
+     "cf": 84
+    },
+    {
+     "livro": "Salmos",
+     "codigo": "PSA",
+     "ci": 86,
+     "cf": 87
+    }
+   ],
+   "titulo": "Salmos 82–84, 86–87",
+   "capitulos": 5.0
+  },
+  {
+   "dia": 135,
+   "epoca": 5,
+   "passagens": [
+    {
+     "livro": "Salmos",
+     "codigo": "PSA",
+     "ci": 88,
+     "cf": 89
+    },
+    {
+     "livro": "Salmos",
+     "codigo": "PSA",
+     "ci": 91,
+     "cf": 91
+    }
+   ],
+   "titulo": "Salmos 88–89, 91",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 136,
+   "epoca": 5,
+   "passagens": [
+    {
+     "livro": "Salmos",
+     "codigo": "PSA",
+     "ci": 92,
+     "cf": 95
+    }
+   ],
+   "titulo": "Salmos 92–95",
+   "capitulos": 4.0
+  },
+  {
+   "dia": 137,
+   "epoca": 5,
+   "passagens": [
+    {
+     "livro": "Salmos",
+     "codigo": "PSA",
+     "ci": 97,
+     "cf": 101
+    }
+   ],
+   "titulo": "Salmos 97–101",
+   "capitulos": 5.0
+  },
+  {
+   "dia": 138,
+   "epoca": 5,
+   "passagens": [
+    {
+     "livro": "2 Samuel",
+     "codigo": "2SA",
+     "ci": 16,
+     "cf": 18
+    }
+   ],
+   "titulo": "2 Samuel 16–18",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 139,
+   "epoca": 5,
+   "passagens": [
+    {
+     "livro": "2 Samuel",
+     "codigo": "2SA",
+     "ci": 19,
+     "cf": 21
+    }
+   ],
+   "titulo": "2 Samuel 19–21",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 140,
+   "epoca": 5,
+   "passagens": [
+    {
+     "livro": "2 Samuel",
+     "codigo": "2SA",
+     "ci": 22,
+     "cf": 22
+    },
+    {
+     "livro": "Salmos",
+     "codigo": "PSA",
+     "ci": 18,
+     "cf": 18
+    }
+   ],
+   "titulo": "2 Samuel 22; Salmos 18",
+   "capitulos": 2.0
+  },
+  {
+   "dia": 141,
+   "epoca": 5,
+   "passagens": [
+    {
+     "livro": "2 Samuel",
+     "codigo": "2SA",
+     "ci": 23,
+     "cf": 24
+    },
+    {
+     "livro": "1 Crónicas",
+     "codigo": "1CH",
+     "ci": 21,
+     "cf": 22
+    }
+   ],
+   "titulo": "2 Samuel 23–24; 1 Crónicas 21–22",
+   "capitulos": 4.0
+  },
+  {
+   "dia": 142,
+   "epoca": 5,
+   "passagens": [
+    {
+     "livro": "Salmos",
+     "codigo": "PSA",
+     "ci": 30,
+     "cf": 30
+    },
+    {
+     "livro": "Salmos",
+     "codigo": "PSA",
+     "ci": 102,
+     "cf": 103
+    }
+   ],
+   "titulo": "Salmos 30, 102–103",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 143,
+   "epoca": 5,
+   "passagens": [
+    {
+     "livro": "Salmos",
+     "codigo": "PSA",
+     "ci": 104,
+     "cf": 104
+    },
+    {
+     "livro": "Salmos",
+     "codigo": "PSA",
+     "ci": 107,
+     "cf": 108
+    }
+   ],
+   "titulo": "Salmos 104, 107–108",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 144,
+   "epoca": 5,
+   "passagens": [
+    {
+     "livro": "Salmos",
+     "codigo": "PSA",
+     "ci": 109,
+     "cf": 113
+    }
+   ],
+   "titulo": "Salmos 109–113",
+   "capitulos": 5.0
+  },
+  {
+   "dia": 145,
+   "epoca": 5,
+   "passagens": [
+    {
+     "livro": "Salmos",
+     "codigo": "PSA",
+     "ci": 114,
+     "cf": 117
+    }
+   ],
+   "titulo": "Salmos 114–117",
+   "capitulos": 4.0
+  },
+  {
+   "dia": 146,
+   "epoca": 5,
+   "passagens": [
+    {
+     "livro": "Salmos",
+     "codigo": "PSA",
+     "ci": 118,
+     "cf": 119
+    }
+   ],
+   "titulo": "Salmos 118–119",
+   "capitulos": 2.0
+  },
+  {
+   "dia": 147,
+   "epoca": 5,
+   "passagens": [
+    {
+     "livro": "Salmos",
+     "codigo": "PSA",
+     "ci": 120,
+     "cf": 122
+    }
+   ],
+   "titulo": "Salmos 120–122",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 148,
+   "epoca": 5,
+   "passagens": [
+    {
+     "livro": "Salmos",
+     "codigo": "PSA",
+     "ci": 123,
+     "cf": 124
+    },
+    {
+     "livro": "1 Crónicas",
+     "codigo": "1CH",
+     "ci": 23,
+     "cf": 24
+    }
+   ],
+   "titulo": "Salmos 123–124; 1 Crónicas 23–24",
+   "capitulos": 4.0
+  },
+  {
+   "dia": 149,
+   "epoca": 5,
+   "passagens": [
+    {
+     "livro": "1 Crónicas",
+     "codigo": "1CH",
+     "ci": 25,
+     "cf": 27
+    }
+   ],
+   "titulo": "1 Crónicas 25–27",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 150,
+   "epoca": 5,
+   "passagens": [
+    {
+     "livro": "1 Crónicas",
+     "codigo": "1CH",
+     "ci": 28,
+     "cf": 29
+    },
+    {
+     "livro": "Salmos",
+     "codigo": "PSA",
+     "ci": 125,
+     "cf": 125
+    }
+   ],
+   "titulo": "1 Crónicas 28–29; Salmos 125",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 151,
+   "epoca": 5,
+   "passagens": [
+    {
+     "livro": "Salmos",
+     "codigo": "PSA",
+     "ci": 128,
+     "cf": 131
+    },
+    {
+     "livro": "Salmos",
+     "codigo": "PSA",
+     "ci": 133,
+     "cf": 134
+    }
+   ],
+   "titulo": "Salmos 128–131, 133–134",
+   "capitulos": 6.0
+  },
+  {
+   "dia": 152,
+   "epoca": 5,
+   "passagens": [
+    {
+     "livro": "Salmos",
+     "codigo": "PSA",
+     "ci": 135,
+     "cf": 136
+    },
+    {
+     "livro": "Salmos",
+     "codigo": "PSA",
+     "ci": 138,
+     "cf": 139
+    }
+   ],
+   "titulo": "Salmos 135–136, 138–139",
+   "capitulos": 4.0
+  },
+  {
+   "dia": 153,
+   "epoca": 5,
+   "passagens": [
+    {
+     "livro": "Salmos",
+     "codigo": "PSA",
+     "ci": 140,
+     "cf": 141
+    },
+    {
+     "livro": "Salmos",
+     "codigo": "PSA",
+     "ci": 143,
+     "cf": 144
+    }
+   ],
+   "titulo": "Salmos 140–141, 143–144",
+   "capitulos": 4.0
+  },
+  {
+   "dia": 154,
+   "epoca": 5,
+   "passagens": [
+    {
+     "livro": "Salmos",
+     "codigo": "PSA",
+     "ci": 145,
+     "cf": 148
+    }
+   ],
+   "titulo": "Salmos 145–148",
+   "capitulos": 4.0
+  },
+  {
+   "dia": 155,
+   "epoca": 5,
+   "passagens": [
+    {
+     "livro": "Salmos",
+     "codigo": "PSA",
+     "ci": 149,
+     "cf": 150
+    },
+    {
+     "livro": "1 Reis",
+     "codigo": "1KI",
+     "ci": 1,
+     "cf": 1
+    }
+   ],
+   "titulo": "Salmos 149–150; 1 Reis 1",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 156,
+   "epoca": 5,
+   "passagens": [
+    {
+     "livro": "1 Reis",
+     "codigo": "1KI",
+     "ci": 2,
+     "cf": 4
+    }
+   ],
+   "titulo": "1 Reis 2–4",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 157,
+   "epoca": 5,
+   "passagens": [
+    {
+     "livro": "2 Crónicas",
+     "codigo": "2CH",
+     "ci": 1,
+     "cf": 1
+    },
+    {
+     "livro": "Salmos",
+     "codigo": "PSA",
+     "ci": 72,
+     "cf": 72
+    },
+    {
+     "livro": "Provérbios",
+     "codigo": "PRO",
+     "ci": 1,
+     "cf": 2
+    }
+   ],
+   "titulo": "2 Crónicas 1; Salmos 72; Provérbios 1–2",
+   "capitulos": 4.0
+  },
+  {
+   "dia": 158,
+   "epoca": 5,
+   "passagens": [
+    {
+     "livro": "Provérbios",
+     "codigo": "PRO",
+     "ci": 3,
+     "cf": 5
+    }
+   ],
+   "titulo": "Provérbios 3–5",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 159,
+   "epoca": 5,
+   "passagens": [
+    {
+     "livro": "Provérbios",
+     "codigo": "PRO",
+     "ci": 6,
+     "cf": 8
+    }
+   ],
+   "titulo": "Provérbios 6–8",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 160,
+   "epoca": 5,
+   "passagens": [
+    {
+     "livro": "Provérbios",
+     "codigo": "PRO",
+     "ci": 9,
+     "cf": 11
+    }
+   ],
+   "titulo": "Provérbios 9–11",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 161,
+   "epoca": 5,
+   "passagens": [
+    {
+     "livro": "Provérbios",
+     "codigo": "PRO",
+     "ci": 12,
+     "cf": 14
+    }
+   ],
+   "titulo": "Provérbios 12–14",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 162,
+   "epoca": 5,
+   "passagens": [
+    {
+     "livro": "Provérbios",
+     "codigo": "PRO",
+     "ci": 15,
+     "cf": 17
+    }
+   ],
+   "titulo": "Provérbios 15–17",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 163,
+   "epoca": 5,
+   "passagens": [
+    {
+     "livro": "Provérbios",
+     "codigo": "PRO",
+     "ci": 18,
+     "cf": 20
+    }
+   ],
+   "titulo": "Provérbios 18–20",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 164,
+   "epoca": 5,
+   "passagens": [
+    {
+     "livro": "Provérbios",
+     "codigo": "PRO",
+     "ci": 21,
+     "cf": 23
+    }
+   ],
+   "titulo": "Provérbios 21–23",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 165,
+   "epoca": 5,
+   "passagens": [
+    {
+     "livro": "Provérbios",
+     "codigo": "PRO",
+     "ci": 24,
+     "cf": 26
+    }
+   ],
+   "titulo": "Provérbios 24–26",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 166,
+   "epoca": 5,
+   "passagens": [
+    {
+     "livro": "Provérbios",
+     "codigo": "PRO",
+     "ci": 27,
+     "cf": 29
+    }
+   ],
+   "titulo": "Provérbios 27–29",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 167,
+   "epoca": 5,
+   "passagens": [
+    {
+     "livro": "Provérbios",
+     "codigo": "PRO",
+     "ci": 30,
+     "cf": 31
+    },
+    {
+     "livro": "1 Reis",
+     "codigo": "1KI",
+     "ci": 5,
+     "cf": 6
+    }
+   ],
+   "titulo": "Provérbios 30–31; 1 Reis 5–6",
+   "capitulos": 4.0
+  },
+  {
+   "dia": 168,
+   "epoca": 5,
+   "passagens": [
+    {
+     "livro": "1 Reis",
+     "codigo": "1KI",
+     "ci": 7,
+     "cf": 8
+    }
+   ],
+   "titulo": "1 Reis 7–8",
+   "capitulos": 2.0
+  },
+  {
+   "dia": 169,
+   "epoca": 5,
+   "passagens": [
+    {
+     "livro": "2 Crónicas",
+     "codigo": "2CH",
+     "ci": 2,
+     "cf": 4
+    }
+   ],
+   "titulo": "2 Crónicas 2–4",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 170,
+   "epoca": 5,
+   "passagens": [
+    {
+     "livro": "2 Crónicas",
+     "codigo": "2CH",
+     "ci": 5,
+     "cf": 7
+    },
+    {
+     "livro": "Salmos",
+     "codigo": "PSA",
+     "ci": 127,
+     "cf": 127
+    }
+   ],
+   "titulo": "2 Crónicas 5–7; Salmos 127",
+   "capitulos": 4.0
+  },
+  {
+   "dia": 171,
+   "epoca": 5,
+   "passagens": [
+    {
+     "livro": "Salmos",
+     "codigo": "PSA",
+     "ci": 132,
+     "cf": 132
+    },
+    {
+     "livro": "Cânticos",
+     "codigo": "SNG",
+     "ci": 1,
+     "cf": 3
+    }
+   ],
+   "titulo": "Salmos 132; Cânticos 1–3",
+   "capitulos": 4.0
+  },
+  {
+   "dia": 172,
+   "epoca": 5,
+   "passagens": [
+    {
+     "livro": "Cânticos",
+     "codigo": "SNG",
+     "ci": 4,
+     "cf": 7
+    }
+   ],
+   "titulo": "Cânticos 4–7",
+   "capitulos": 4.0
+  },
+  {
+   "dia": 173,
+   "epoca": 5,
+   "passagens": [
+    {
+     "livro": "Cânticos",
+     "codigo": "SNG",
+     "ci": 8,
+     "cf": 8
+    },
+    {
+     "livro": "1 Reis",
+     "codigo": "1KI",
+     "ci": 9,
+     "cf": 10
+    }
+   ],
+   "titulo": "Cânticos 8; 1 Reis 9–10",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 174,
+   "epoca": 5,
+   "passagens": [
+    {
+     "livro": "1 Reis",
+     "codigo": "1KI",
+     "ci": 11,
+     "cf": 11
+    },
+    {
+     "livro": "2 Crónicas",
+     "codigo": "2CH",
+     "ci": 8,
+     "cf": 9
+    },
+    {
+     "livro": "Eclesiastes",
+     "codigo": "ECC",
+     "ci": 1,
+     "cf": 1
+    }
+   ],
+   "titulo": "1 Reis 11; 2 Crónicas 8–9; Eclesiastes 1",
+   "capitulos": 4.0
+  },
+  {
+   "dia": 175,
+   "epoca": 5,
+   "passagens": [
+    {
+     "livro": "Eclesiastes",
+     "codigo": "ECC",
+     "ci": 2,
+     "cf": 4
+    }
+   ],
+   "titulo": "Eclesiastes 2–4",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 176,
+   "epoca": 5,
+   "passagens": [
+    {
+     "livro": "Eclesiastes",
+     "codigo": "ECC",
+     "ci": 5,
+     "cf": 8
+    }
+   ],
+   "titulo": "Eclesiastes 5–8",
+   "capitulos": 4.0
+  },
+  {
+   "dia": 177,
+   "epoca": 5,
+   "passagens": [
+    {
+     "livro": "Eclesiastes",
+     "codigo": "ECC",
+     "ci": 9,
+     "cf": 12
+    }
+   ],
+   "titulo": "Eclesiastes 9–12",
+   "capitulos": 4.0
+  },
+  {
+   "dia": 178,
+   "epoca": 6,
+   "passagens": [
+    {
+     "livro": "1 Reis",
+     "codigo": "1KI",
+     "ci": 12,
+     "cf": 14
+    }
+   ],
+   "titulo": "1 Reis 12–14",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 179,
+   "epoca": 6,
+   "passagens": [
+    {
+     "livro": "2 Crónicas",
+     "codigo": "2CH",
+     "ci": 10,
+     "cf": 12
+    }
+   ],
+   "titulo": "2 Crónicas 10–12",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 180,
+   "epoca": 6,
+   "passagens": [
+    {
+     "livro": "1 Reis",
+     "codigo": "1KI",
+     "ci": 15,
+     "cf": 16
+    },
+    {
+     "livro": "2 Crónicas",
+     "codigo": "2CH",
+     "ci": 13,
+     "cf": 14
+    }
+   ],
+   "titulo": "1 Reis 15–16; 2 Crónicas 13–14",
+   "capitulos": 4.0
+  },
+  {
+   "dia": 181,
+   "epoca": 6,
+   "passagens": [
+    {
+     "livro": "2 Crónicas",
+     "codigo": "2CH",
+     "ci": 15,
+     "cf": 16
+    },
+    {
+     "livro": "1 Reis",
+     "codigo": "1KI",
+     "ci": 17,
+     "cf": 17
+    }
+   ],
+   "titulo": "2 Crónicas 15–16; 1 Reis 17",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 182,
+   "epoca": 6,
+   "passagens": [
+    {
+     "livro": "1 Reis",
+     "codigo": "1KI",
+     "ci": 18,
+     "cf": 20
+    }
+   ],
+   "titulo": "1 Reis 18–20",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 183,
+   "epoca": 6,
+   "passagens": [
+    {
+     "livro": "1 Reis",
+     "codigo": "1KI",
+     "ci": 21,
+     "cf": 22
+    },
+    {
+     "livro": "2 Crónicas",
+     "codigo": "2CH",
+     "ci": 17,
+     "cf": 17
+    }
+   ],
+   "titulo": "1 Reis 21–22; 2 Crónicas 17",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 184,
+   "epoca": 6,
+   "passagens": [
+    {
+     "livro": "2 Crónicas",
+     "codigo": "2CH",
+     "ci": 18,
+     "cf": 20
+    }
+   ],
+   "titulo": "2 Crónicas 18–20",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 185,
+   "epoca": 6,
+   "passagens": [
+    {
+     "livro": "2 Reis",
+     "codigo": "2KI",
+     "ci": 1,
+     "cf": 3
+    }
+   ],
+   "titulo": "2 Reis 1–3",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 186,
+   "epoca": 6,
+   "passagens": [
+    {
+     "livro": "2 Reis",
+     "codigo": "2KI",
+     "ci": 4,
+     "cf": 6
+    }
+   ],
+   "titulo": "2 Reis 4–6",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 187,
+   "epoca": 6,
+   "passagens": [
+    {
+     "livro": "2 Reis",
+     "codigo": "2KI",
+     "ci": 7,
+     "cf": 8
+    },
+    {
+     "livro": "2 Crónicas",
+     "codigo": "2CH",
+     "ci": 21,
+     "cf": 22
+    }
+   ],
+   "titulo": "2 Reis 7–8; 2 Crónicas 21–22",
+   "capitulos": 4.0
+  },
+  {
+   "dia": 188,
+   "epoca": 6,
+   "passagens": [
+    {
+     "livro": "2 Reis",
+     "codigo": "2KI",
+     "ci": 9,
+     "cf": 11
+    }
+   ],
+   "titulo": "2 Reis 9–11",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 189,
+   "epoca": 6,
+   "passagens": [
+    {
+     "livro": "2 Reis",
+     "codigo": "2KI",
+     "ci": 12,
+     "cf": 12
+    },
+    {
+     "livro": "2 Crónicas",
+     "codigo": "2CH",
+     "ci": 23,
+     "cf": 24
+    },
+    {
+     "livro": "Joel",
+     "codigo": "JOL",
+     "ci": 1,
+     "cf": 1
+    }
+   ],
+   "titulo": "2 Reis 12; 2 Crónicas 23–24; Joel 1",
+   "capitulos": 4.0
+  },
+  {
+   "dia": 190,
+   "epoca": 6,
+   "passagens": [
+    {
+     "livro": "Joel",
+     "codigo": "JOL",
+     "ci": 2,
+     "cf": 3
+    },
+    {
+     "livro": "2 Reis",
+     "codigo": "2KI",
+     "ci": 13,
+     "cf": 13
+    }
+   ],
+   "titulo": "Joel 2–3; 2 Reis 13",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 191,
+   "epoca": 6,
+   "passagens": [
+    {
+     "livro": "2 Reis",
+     "codigo": "2KI",
+     "ci": 14,
+     "cf": 14
+    },
+    {
+     "livro": "2 Crónicas",
+     "codigo": "2CH",
+     "ci": 25,
+     "cf": 25
+    },
+    {
+     "livro": "Jonas",
+     "codigo": "JON",
+     "ci": 1,
+     "cf": 1
+    }
+   ],
+   "titulo": "2 Reis 14; 2 Crónicas 25; Jonas 1",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 192,
+   "epoca": 6,
+   "passagens": [
+    {
+     "livro": "Jonas",
+     "codigo": "JON",
+     "ci": 2,
+     "cf": 4
+    },
+    {
+     "livro": "Amós",
+     "codigo": "AMO",
+     "ci": 1,
+     "cf": 2
+    }
+   ],
+   "titulo": "Jonas 2–4; Amós 1–2",
+   "capitulos": 5.0
+  },
+  {
+   "dia": 193,
+   "epoca": 6,
+   "passagens": [
+    {
+     "livro": "Amós",
+     "codigo": "AMO",
+     "ci": 3,
+     "cf": 6
+    }
+   ],
+   "titulo": "Amós 3–6",
+   "capitulos": 4.0
+  },
+  {
+   "dia": 194,
+   "epoca": 6,
+   "passagens": [
+    {
+     "livro": "Amós",
+     "codigo": "AMO",
+     "ci": 7,
+     "cf": 9
+    },
+    {
+     "livro": "2 Crónicas",
+     "codigo": "2CH",
+     "ci": 26,
+     "cf": 26
+    }
+   ],
+   "titulo": "Amós 7–9; 2 Crónicas 26",
+   "capitulos": 4.0
+  },
+  {
+   "dia": 195,
+   "epoca": 6,
+   "passagens": [
+    {
+     "livro": "Oseias",
+     "codigo": "HOS",
+     "ci": 1,
+     "cf": 4
+    }
+   ],
+   "titulo": "Oseias 1–4",
+   "capitulos": 4.0
+  },
+  {
+   "dia": 196,
+   "epoca": 6,
+   "passagens": [
+    {
+     "livro": "Oseias",
+     "codigo": "HOS",
+     "ci": 5,
+     "cf": 8
+    }
+   ],
+   "titulo": "Oseias 5–8",
+   "capitulos": 4.0
+  },
+  {
+   "dia": 197,
+   "epoca": 6,
+   "passagens": [
+    {
+     "livro": "Oseias",
+     "codigo": "HOS",
+     "ci": 9,
+     "cf": 12
+    }
+   ],
+   "titulo": "Oseias 9–12",
+   "capitulos": 4.0
+  },
+  {
+   "dia": 198,
+   "epoca": 6,
+   "passagens": [
+    {
+     "livro": "Oseias",
+     "codigo": "HOS",
+     "ci": 13,
+     "cf": 14
+    },
+    {
+     "livro": "2 Reis",
+     "codigo": "2KI",
+     "ci": 15,
+     "cf": 16
+    }
+   ],
+   "titulo": "Oseias 13–14; 2 Reis 15–16",
+   "capitulos": 4.0
+  },
+  {
+   "dia": 199,
+   "epoca": 6,
+   "passagens": [
+    {
+     "livro": "2 Crónicas",
+     "codigo": "2CH",
+     "ci": 27,
+     "cf": 28
+    },
+    {
+     "livro": "Isaías",
+     "codigo": "ISA",
+     "ci": 1,
+     "cf": 1
+    }
+   ],
+   "titulo": "2 Crónicas 27–28; Isaías 1",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 200,
+   "epoca": 6,
+   "passagens": [
+    {
+     "livro": "Isaías",
+     "codigo": "ISA",
+     "ci": 2,
+     "cf": 5
+    }
+   ],
+   "titulo": "Isaías 2–5",
+   "capitulos": 4.0
+  },
+  {
+   "dia": 201,
+   "epoca": 6,
+   "passagens": [
+    {
+     "livro": "Isaías",
+     "codigo": "ISA",
+     "ci": 6,
+     "cf": 9
+    }
+   ],
+   "titulo": "Isaías 6–9",
+   "capitulos": 4.0
+  },
+  {
+   "dia": 202,
+   "epoca": 6,
+   "passagens": [
+    {
+     "livro": "Isaías",
+     "codigo": "ISA",
+     "ci": 10,
+     "cf": 12
+    }
+   ],
+   "titulo": "Isaías 10–12",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 203,
+   "epoca": 6,
+   "passagens": [
+    {
+     "livro": "Miqueias",
+     "codigo": "MIC",
+     "ci": 1,
+     "cf": 5
+    }
+   ],
+   "titulo": "Miqueias 1–5",
+   "capitulos": 5.0
+  },
+  {
+   "dia": 204,
+   "epoca": 6,
+   "passagens": [
+    {
+     "livro": "Miqueias",
+     "codigo": "MIC",
+     "ci": 6,
+     "cf": 7
+    },
+    {
+     "livro": "Isaías",
+     "codigo": "ISA",
+     "ci": 13,
+     "cf": 13
+    }
+   ],
+   "titulo": "Miqueias 6–7; Isaías 13",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 205,
+   "epoca": 6,
+   "passagens": [
+    {
+     "livro": "Isaías",
+     "codigo": "ISA",
+     "ci": 14,
+     "cf": 18
+    }
+   ],
+   "titulo": "Isaías 14–18",
+   "capitulos": 5.0
+  },
+  {
+   "dia": 206,
+   "epoca": 6,
+   "passagens": [
+    {
+     "livro": "Isaías",
+     "codigo": "ISA",
+     "ci": 19,
+     "cf": 22
+    }
+   ],
+   "titulo": "Isaías 19–22",
+   "capitulos": 4.0
+  },
+  {
+   "dia": 207,
+   "epoca": 6,
+   "passagens": [
+    {
+     "livro": "Isaías",
+     "codigo": "ISA",
+     "ci": 23,
+     "cf": 25
+    }
+   ],
+   "titulo": "Isaías 23–25",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 208,
+   "epoca": 6,
+   "passagens": [
+    {
+     "livro": "Isaías",
+     "codigo": "ISA",
+     "ci": 26,
+     "cf": 29
+    }
+   ],
+   "titulo": "Isaías 26–29",
+   "capitulos": 4.0
+  },
+  {
+   "dia": 209,
+   "epoca": 6,
+   "passagens": [
+    {
+     "livro": "Isaías",
+     "codigo": "ISA",
+     "ci": 30,
+     "cf": 33
+    }
+   ],
+   "titulo": "Isaías 30–33",
+   "capitulos": 4.0
+  },
+  {
+   "dia": 210,
+   "epoca": 6,
+   "passagens": [
+    {
+     "livro": "Isaías",
+     "codigo": "ISA",
+     "ci": 34,
+     "cf": 35
+    },
+    {
+     "livro": "2 Reis",
+     "codigo": "2KI",
+     "ci": 17,
+     "cf": 17
+    }
+   ],
+   "titulo": "Isaías 34–35; 2 Reis 17",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 211,
+   "epoca": 7,
+   "passagens": [
+    {
+     "livro": "2 Reis",
+     "codigo": "2KI",
+     "ci": 18,
+     "cf": 19
+    },
+    {
+     "livro": "Isaías",
+     "codigo": "ISA",
+     "ci": 36,
+     "cf": 36
+    }
+   ],
+   "titulo": "2 Reis 18–19; Isaías 36",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 212,
+   "epoca": 7,
+   "passagens": [
+    {
+     "livro": "Isaías",
+     "codigo": "ISA",
+     "ci": 37,
+     "cf": 37
+    },
+    {
+     "livro": "2 Crónicas",
+     "codigo": "2CH",
+     "ci": 29,
+     "cf": 30
+    }
+   ],
+   "titulo": "Isaías 37; 2 Crónicas 29–30",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 213,
+   "epoca": 7,
+   "passagens": [
+    {
+     "livro": "2 Crónicas",
+     "codigo": "2CH",
+     "ci": 31,
+     "cf": 32
+    },
+    {
+     "livro": "2 Reis",
+     "codigo": "2KI",
+     "ci": 20,
+     "cf": 20
+    }
+   ],
+   "titulo": "2 Crónicas 31–32; 2 Reis 20",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 214,
+   "epoca": 7,
+   "passagens": [
+    {
+     "livro": "Isaías",
+     "codigo": "ISA",
+     "ci": 38,
+     "cf": 41
+    }
+   ],
+   "titulo": "Isaías 38–41",
+   "capitulos": 4.0
+  },
+  {
+   "dia": 215,
+   "epoca": 7,
+   "passagens": [
+    {
+     "livro": "Isaías",
+     "codigo": "ISA",
+     "ci": 42,
+     "cf": 44
+    }
+   ],
+   "titulo": "Isaías 42–44",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 216,
+   "epoca": 7,
+   "passagens": [
+    {
+     "livro": "Isaías",
+     "codigo": "ISA",
+     "ci": 45,
+     "cf": 48
+    }
+   ],
+   "titulo": "Isaías 45–48",
+   "capitulos": 4.0
+  },
+  {
+   "dia": 217,
+   "epoca": 7,
+   "passagens": [
+    {
+     "livro": "Isaías",
+     "codigo": "ISA",
+     "ci": 49,
+     "cf": 51
+    }
+   ],
+   "titulo": "Isaías 49–51",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 218,
+   "epoca": 7,
+   "passagens": [
+    {
+     "livro": "Isaías",
+     "codigo": "ISA",
+     "ci": 52,
+     "cf": 56
+    }
+   ],
+   "titulo": "Isaías 52–56",
+   "capitulos": 5.0
+  },
+  {
+   "dia": 219,
+   "epoca": 7,
+   "passagens": [
+    {
+     "livro": "Isaías",
+     "codigo": "ISA",
+     "ci": 57,
+     "cf": 59
+    }
+   ],
+   "titulo": "Isaías 57–59",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 220,
+   "epoca": 7,
+   "passagens": [
+    {
+     "livro": "Isaías",
+     "codigo": "ISA",
+     "ci": 60,
+     "cf": 64
+    }
+   ],
+   "titulo": "Isaías 60–64",
+   "capitulos": 5.0
+  },
+  {
+   "dia": 221,
+   "epoca": 7,
+   "passagens": [
+    {
+     "livro": "Isaías",
+     "codigo": "ISA",
+     "ci": 65,
+     "cf": 66
+    },
+    {
+     "livro": "2 Reis",
+     "codigo": "2KI",
+     "ci": 21,
+     "cf": 21
+    }
+   ],
+   "titulo": "Isaías 65–66; 2 Reis 21",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 222,
+   "epoca": 7,
+   "passagens": [
+    {
+     "livro": "2 Crónicas",
+     "codigo": "2CH",
+     "ci": 33,
+     "cf": 33
+    },
+    {
+     "livro": "Naum",
+     "codigo": "NAM",
+     "ci": 1,
+     "cf": 3
+    }
+   ],
+   "titulo": "2 Crónicas 33; Naum 1–3",
+   "capitulos": 4.0
+  },
+  {
+   "dia": 223,
+   "epoca": 7,
+   "passagens": [
+    {
+     "livro": "2 Reis",
+     "codigo": "2KI",
+     "ci": 22,
+     "cf": 23
+    },
+    {
+     "livro": "2 Crónicas",
+     "codigo": "2CH",
+     "ci": 34,
+     "cf": 34
+    }
+   ],
+   "titulo": "2 Reis 22–23; 2 Crónicas 34",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 224,
+   "epoca": 7,
+   "passagens": [
+    {
+     "livro": "2 Crónicas",
+     "codigo": "2CH",
+     "ci": 35,
+     "cf": 35
+    },
+    {
+     "livro": "Sofonias",
+     "codigo": "ZEP",
+     "ci": 1,
+     "cf": 3
+    }
+   ],
+   "titulo": "2 Crónicas 35; Sofonias 1–3",
+   "capitulos": 4.0
+  },
+  {
+   "dia": 225,
+   "epoca": 7,
+   "passagens": [
+    {
+     "livro": "Jeremias",
+     "codigo": "JER",
+     "ci": 1,
+     "cf": 3
+    }
+   ],
+   "titulo": "Jeremias 1–3",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 226,
+   "epoca": 7,
+   "passagens": [
+    {
+     "livro": "Jeremias",
+     "codigo": "JER",
+     "ci": 4,
+     "cf": 6
+    }
+   ],
+   "titulo": "Jeremias 4–6",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 227,
+   "epoca": 7,
+   "passagens": [
+    {
+     "livro": "Jeremias",
+     "codigo": "JER",
+     "ci": 7,
+     "cf": 9
+    }
+   ],
+   "titulo": "Jeremias 7–9",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 228,
+   "epoca": 7,
+   "passagens": [
+    {
+     "livro": "Jeremias",
+     "codigo": "JER",
+     "ci": 10,
+     "cf": 12
+    }
+   ],
+   "titulo": "Jeremias 10–12",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 229,
+   "epoca": 7,
+   "passagens": [
+    {
+     "livro": "Jeremias",
+     "codigo": "JER",
+     "ci": 13,
+     "cf": 16
+    }
+   ],
+   "titulo": "Jeremias 13–16",
+   "capitulos": 4.0
+  },
+  {
+   "dia": 230,
+   "epoca": 7,
+   "passagens": [
+    {
+     "livro": "Jeremias",
+     "codigo": "JER",
+     "ci": 17,
+     "cf": 20
+    }
+   ],
+   "titulo": "Jeremias 17–20",
+   "capitulos": 4.0
+  },
+  {
+   "dia": 231,
+   "epoca": 7,
+   "passagens": [
+    {
+     "livro": "Habacuque",
+     "codigo": "HAB",
+     "ci": 1,
+     "cf": 3
+    }
+   ],
+   "titulo": "Habacuque 1–3",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 232,
+   "epoca": 7,
+   "passagens": [
+    {
+     "livro": "2 Reis",
+     "codigo": "2KI",
+     "ci": 24,
+     "cf": 25
+    },
+    {
+     "livro": "2 Crónicas",
+     "codigo": "2CH",
+     "ci": 36,
+     "cf": 36
+    },
+    {
+     "livro": "Jeremias",
+     "codigo": "JER",
+     "ci": 21,
+     "cf": 21
+    }
+   ],
+   "titulo": "2 Reis 24–25; 2 Crónicas 36; Jeremias 21",
+   "capitulos": 4.0
+  },
+  {
+   "dia": 233,
+   "epoca": 7,
+   "passagens": [
+    {
+     "livro": "Jeremias",
+     "codigo": "JER",
+     "ci": 22,
+     "cf": 24
+    }
+   ],
+   "titulo": "Jeremias 22–24",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 234,
+   "epoca": 7,
+   "passagens": [
+    {
+     "livro": "Jeremias",
+     "codigo": "JER",
+     "ci": 25,
+     "cf": 27
+    }
+   ],
+   "titulo": "Jeremias 25–27",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 235,
+   "epoca": 7,
+   "passagens": [
+    {
+     "livro": "Jeremias",
+     "codigo": "JER",
+     "ci": 28,
+     "cf": 31
+    }
+   ],
+   "titulo": "Jeremias 28–31",
+   "capitulos": 4.0
+  },
+  {
+   "dia": 236,
+   "epoca": 7,
+   "passagens": [
+    {
+     "livro": "Jeremias",
+     "codigo": "JER",
+     "ci": 32,
+     "cf": 33
+    }
+   ],
+   "titulo": "Jeremias 32–33",
+   "capitulos": 2.0
+  },
+  {
+   "dia": 237,
+   "epoca": 7,
+   "passagens": [
+    {
+     "livro": "Jeremias",
+     "codigo": "JER",
+     "ci": 34,
+     "cf": 37
+    }
+   ],
+   "titulo": "Jeremias 34–37",
+   "capitulos": 4.0
+  },
+  {
+   "dia": 238,
+   "epoca": 7,
+   "passagens": [
+    {
+     "livro": "Jeremias",
+     "codigo": "JER",
+     "ci": 38,
+     "cf": 40
+    }
+   ],
+   "titulo": "Jeremias 38–40",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 239,
+   "epoca": 7,
+   "passagens": [
+    {
+     "livro": "Jeremias",
+     "codigo": "JER",
+     "ci": 41,
+     "cf": 44
+    }
+   ],
+   "titulo": "Jeremias 41–44",
+   "capitulos": 4.0
+  },
+  {
+   "dia": 240,
+   "epoca": 7,
+   "passagens": [
+    {
+     "livro": "Jeremias",
+     "codigo": "JER",
+     "ci": 45,
+     "cf": 48
+    }
+   ],
+   "titulo": "Jeremias 45–48",
+   "capitulos": 4.0
+  },
+  {
+   "dia": 241,
+   "epoca": 7,
+   "passagens": [
+    {
+     "livro": "Jeremias",
+     "codigo": "JER",
+     "ci": 49,
+     "cf": 50
+    }
+   ],
+   "titulo": "Jeremias 49–50",
+   "capitulos": 2.0
+  },
+  {
+   "dia": 242,
+   "epoca": 7,
+   "passagens": [
+    {
+     "livro": "Jeremias",
+     "codigo": "JER",
+     "ci": 51,
+     "cf": 52
+    },
+    {
+     "livro": "Lamentações",
+     "codigo": "LAM",
+     "ci": 1,
+     "cf": 1
+    }
+   ],
+   "titulo": "Jeremias 51–52; Lamentações 1",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 243,
+   "epoca": 7,
+   "passagens": [
+    {
+     "livro": "Lamentações",
+     "codigo": "LAM",
+     "ci": 2,
+     "cf": 3
+    }
+   ],
+   "titulo": "Lamentações 2–3",
+   "capitulos": 2.0
+  },
+  {
+   "dia": 244,
+   "epoca": 7,
+   "passagens": [
+    {
+     "livro": "Lamentações",
+     "codigo": "LAM",
+     "ci": 4,
+     "cf": 5
+    },
+    {
+     "livro": "Salmos",
+     "codigo": "PSA",
+     "ci": 74,
+     "cf": 74
+    },
+    {
+     "livro": "Salmos",
+     "codigo": "PSA",
+     "ci": 79,
+     "cf": 79
+    }
+   ],
+   "titulo": "Lamentações 4–5; Salmos 74, 79",
+   "capitulos": 4.0
+  },
+  {
+   "dia": 245,
+   "epoca": 8,
+   "passagens": [
+    {
+     "livro": "Obadias",
+     "codigo": "OBA",
+     "ci": 1,
+     "cf": 1
+    },
+    {
+     "livro": "Salmos",
+     "codigo": "PSA",
+     "ci": 137,
+     "cf": 137
+    },
+    {
+     "livro": "Ezequiel",
+     "codigo": "EZK",
+     "ci": 1,
+     "cf": 2
+    }
+   ],
+   "titulo": "Obadias; Salmos 137; Ezequiel 1–2",
+   "capitulos": 4.0
+  },
+  {
+   "dia": 246,
+   "epoca": 8,
+   "passagens": [
+    {
+     "livro": "Ezequiel",
+     "codigo": "EZK",
+     "ci": 3,
+     "cf": 6
+    }
+   ],
+   "titulo": "Ezequiel 3–6",
+   "capitulos": 4.0
+  },
+  {
+   "dia": 247,
+   "epoca": 8,
+   "passagens": [
+    {
+     "livro": "Ezequiel",
+     "codigo": "EZK",
+     "ci": 7,
+     "cf": 10
+    }
+   ],
+   "titulo": "Ezequiel 7–10",
+   "capitulos": 4.0
+  },
+  {
+   "dia": 248,
+   "epoca": 8,
+   "passagens": [
+    {
+     "livro": "Ezequiel",
+     "codigo": "EZK",
+     "ci": 11,
+     "cf": 13
+    }
+   ],
+   "titulo": "Ezequiel 11–13",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 249,
+   "epoca": 8,
+   "passagens": [
+    {
+     "livro": "Ezequiel",
+     "codigo": "EZK",
+     "ci": 14,
+     "cf": 16
+    }
+   ],
+   "titulo": "Ezequiel 14–16",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 250,
+   "epoca": 8,
+   "passagens": [
+    {
+     "livro": "Ezequiel",
+     "codigo": "EZK",
+     "ci": 17,
+     "cf": 19
+    }
+   ],
+   "titulo": "Ezequiel 17–19",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 251,
+   "epoca": 8,
+   "passagens": [
+    {
+     "livro": "Ezequiel",
+     "codigo": "EZK",
+     "ci": 20,
+     "cf": 22
+    }
+   ],
+   "titulo": "Ezequiel 20–22",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 252,
+   "epoca": 8,
+   "passagens": [
+    {
+     "livro": "Ezequiel",
+     "codigo": "EZK",
+     "ci": 23,
+     "cf": 25
+    }
+   ],
+   "titulo": "Ezequiel 23–25",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 253,
+   "epoca": 8,
+   "passagens": [
+    {
+     "livro": "Ezequiel",
+     "codigo": "EZK",
+     "ci": 26,
+     "cf": 28
+    }
+   ],
+   "titulo": "Ezequiel 26–28",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 254,
+   "epoca": 8,
+   "passagens": [
+    {
+     "livro": "Ezequiel",
+     "codigo": "EZK",
+     "ci": 29,
+     "cf": 32
+    }
+   ],
+   "titulo": "Ezequiel 29–32",
+   "capitulos": 4.0
+  },
+  {
+   "dia": 255,
+   "epoca": 8,
+   "passagens": [
+    {
+     "livro": "Ezequiel",
+     "codigo": "EZK",
+     "ci": 33,
+     "cf": 35
+    }
+   ],
+   "titulo": "Ezequiel 33–35",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 256,
+   "epoca": 8,
+   "passagens": [
+    {
+     "livro": "Ezequiel",
+     "codigo": "EZK",
+     "ci": 36,
+     "cf": 38
+    }
+   ],
+   "titulo": "Ezequiel 36–38",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 257,
+   "epoca": 8,
+   "passagens": [
+    {
+     "livro": "Ezequiel",
+     "codigo": "EZK",
+     "ci": 39,
+     "cf": 41
+    }
+   ],
+   "titulo": "Ezequiel 39–41",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 258,
+   "epoca": 8,
+   "passagens": [
+    {
+     "livro": "Ezequiel",
+     "codigo": "EZK",
+     "ci": 42,
+     "cf": 44
+    }
+   ],
+   "titulo": "Ezequiel 42–44",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 259,
+   "epoca": 8,
+   "passagens": [
+    {
+     "livro": "Ezequiel",
+     "codigo": "EZK",
+     "ci": 45,
+     "cf": 48
+    }
+   ],
+   "titulo": "Ezequiel 45–48",
+   "capitulos": 4.0
+  },
+  {
+   "dia": 260,
+   "epoca": 8,
+   "passagens": [
+    {
+     "livro": "Daniel",
+     "codigo": "DAN",
+     "ci": 1,
+     "cf": 3
+    }
+   ],
+   "titulo": "Daniel 1–3",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 261,
+   "epoca": 8,
+   "passagens": [
+    {
+     "livro": "Daniel",
+     "codigo": "DAN",
+     "ci": 4,
+     "cf": 5
+    }
+   ],
+   "titulo": "Daniel 4–5",
+   "capitulos": 2.0
+  },
+  {
+   "dia": 262,
+   "epoca": 8,
+   "passagens": [
+    {
+     "livro": "Daniel",
+     "codigo": "DAN",
+     "ci": 6,
+     "cf": 9
+    }
+   ],
+   "titulo": "Daniel 6–9",
+   "capitulos": 4.0
+  },
+  {
+   "dia": 263,
+   "epoca": 8,
+   "passagens": [
+    {
+     "livro": "Daniel",
+     "codigo": "DAN",
+     "ci": 10,
+     "cf": 12
+    }
+   ],
+   "titulo": "Daniel 10–12",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 264,
+   "epoca": 9,
+   "passagens": [
+    {
+     "livro": "Esdras",
+     "codigo": "EZR",
+     "ci": 1,
+     "cf": 3
+    }
+   ],
+   "titulo": "Esdras 1–3",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 265,
+   "epoca": 9,
+   "passagens": [
+    {
+     "livro": "Esdras",
+     "codigo": "EZR",
+     "ci": 4,
+     "cf": 4
+    },
+    {
+     "livro": "Ageu",
+     "codigo": "HAG",
+     "ci": 1,
+     "cf": 2
+    },
+    {
+     "livro": "Zacarias",
+     "codigo": "ZEC",
+     "ci": 1,
+     "cf": 1
+    }
+   ],
+   "titulo": "Esdras 4; Ageu 1–2; Zacarias 1",
+   "capitulos": 4.0
+  },
+  {
+   "dia": 266,
+   "epoca": 9,
+   "passagens": [
+    {
+     "livro": "Zacarias",
+     "codigo": "ZEC",
+     "ci": 2,
+     "cf": 5
+    }
+   ],
+   "titulo": "Zacarias 2–5",
+   "capitulos": 4.0
+  },
+  {
+   "dia": 267,
+   "epoca": 9,
+   "passagens": [
+    {
+     "livro": "Zacarias",
+     "codigo": "ZEC",
+     "ci": 6,
+     "cf": 9
+    }
+   ],
+   "titulo": "Zacarias 6–9",
+   "capitulos": 4.0
+  },
+  {
+   "dia": 268,
+   "epoca": 9,
+   "passagens": [
+    {
+     "livro": "Zacarias",
+     "codigo": "ZEC",
+     "ci": 10,
+     "cf": 14
+    }
+   ],
+   "titulo": "Zacarias 10–14",
+   "capitulos": 5.0
+  },
+  {
+   "dia": 269,
+   "epoca": 9,
+   "passagens": [
+    {
+     "livro": "Esdras",
+     "codigo": "EZR",
+     "ci": 5,
+     "cf": 6
+    },
+    {
+     "livro": "Salmos",
+     "codigo": "PSA",
+     "ci": 126,
+     "cf": 126
+    },
+    {
+     "livro": "Salmos",
+     "codigo": "PSA",
+     "ci": 85,
+     "cf": 85
+    }
+   ],
+   "titulo": "Esdras 5–6; Salmos 126, 85",
+   "capitulos": 4.0
+  },
+  {
+   "dia": 270,
+   "epoca": 9,
+   "passagens": [
+    {
+     "livro": "Ester",
+     "codigo": "EST",
+     "ci": 1,
+     "cf": 4
+    }
+   ],
+   "titulo": "Ester 1–4",
+   "capitulos": 4.0
+  },
+  {
+   "dia": 271,
+   "epoca": 9,
+   "passagens": [
+    {
+     "livro": "Ester",
+     "codigo": "EST",
+     "ci": 5,
+     "cf": 8
+    }
+   ],
+   "titulo": "Ester 5–8",
+   "capitulos": 4.0
+  },
+  {
+   "dia": 272,
+   "epoca": 9,
+   "passagens": [
+    {
+     "livro": "Ester",
+     "codigo": "EST",
+     "ci": 9,
+     "cf": 10
+    },
+    {
+     "livro": "Esdras",
+     "codigo": "EZR",
+     "ci": 7,
+     "cf": 8
+    }
+   ],
+   "titulo": "Ester 9–10; Esdras 7–8",
+   "capitulos": 4.0
+  },
+  {
+   "dia": 273,
+   "epoca": 9,
+   "passagens": [
+    {
+     "livro": "Esdras",
+     "codigo": "EZR",
+     "ci": 9,
+     "cf": 10
+    },
+    {
+     "livro": "Neemias",
+     "codigo": "NEH",
+     "ci": 1,
+     "cf": 1
+    }
+   ],
+   "titulo": "Esdras 9–10; Neemias 1",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 274,
+   "epoca": 9,
+   "passagens": [
+    {
+     "livro": "Neemias",
+     "codigo": "NEH",
+     "ci": 2,
+     "cf": 4
+    }
+   ],
+   "titulo": "Neemias 2–4",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 275,
+   "epoca": 9,
+   "passagens": [
+    {
+     "livro": "Neemias",
+     "codigo": "NEH",
+     "ci": 5,
+     "cf": 7
+    }
+   ],
+   "titulo": "Neemias 5–7",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 276,
+   "epoca": 9,
+   "passagens": [
+    {
+     "livro": "Neemias",
+     "codigo": "NEH",
+     "ci": 8,
+     "cf": 10
+    }
+   ],
+   "titulo": "Neemias 8–10",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 277,
+   "epoca": 9,
+   "passagens": [
+    {
+     "livro": "Neemias",
+     "codigo": "NEH",
+     "ci": 11,
+     "cf": 13
+    }
+   ],
+   "titulo": "Neemias 11–13",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 278,
+   "epoca": 9,
+   "passagens": [
+    {
+     "livro": "Malaquias",
+     "codigo": "MAL",
+     "ci": 1,
+     "cf": 4
+    }
+   ],
+   "titulo": "Malaquias 1–4",
+   "capitulos": 4.0
+  },
+  {
+   "dia": 279,
+   "epoca": 10,
+   "passagens": [
+    {
+     "livro": "João",
+     "codigo": "JHN",
+     "ci": 1,
+     "cf": 1,
+     "vi": 1,
+     "vf": 18
+    },
+    {
+     "livro": "Lucas",
+     "codigo": "LUK",
+     "ci": 1,
+     "cf": 1
+    },
+    {
+     "livro": "Mateus",
+     "codigo": "MAT",
+     "ci": 1,
+     "cf": 1
+    }
+   ],
+   "titulo": "João 1:1–18; Lucas 1; Mateus 1",
+   "capitulos": 2.35
+  },
+  {
+   "dia": 280,
+   "epoca": 10,
+   "passagens": [
+    {
+     "livro": "Lucas",
+     "codigo": "LUK",
+     "ci": 2,
+     "cf": 2
+    },
+    {
+     "livro": "Mateus",
+     "codigo": "MAT",
+     "ci": 2,
+     "cf": 2
+    },
+    {
+     "livro": "Marcos",
+     "codigo": "MRK",
+     "ci": 1,
+     "cf": 1,
+     "vi": 1,
+     "vf": 13
+    }
+   ],
+   "titulo": "Lucas 2; Mateus 2; Marcos 1:1–13",
+   "capitulos": 2.29
+  },
+  {
+   "dia": 281,
+   "epoca": 10,
+   "passagens": [
+    {
+     "livro": "Mateus",
+     "codigo": "MAT",
+     "ci": 3,
+     "cf": 4,
+     "vi": 1,
+     "vf": 11
+    },
+    {
+     "livro": "Lucas",
+     "codigo": "LUK",
+     "ci": 3,
+     "cf": 4,
+     "vi": 1,
+     "vf": 13
+    },
+    {
+     "livro": "João",
+     "codigo": "JHN",
+     "ci": 1,
+     "cf": 1,
+     "vi": 19,
+     "vf": 51
+    }
+   ],
+   "titulo": "Mateus 3:1–4:11; Lucas 3:1–4:13; João 1:19–51",
+   "capitulos": 3.38
+  },
+  {
+   "dia": 282,
+   "epoca": 10,
+   "passagens": [
+    {
+     "livro": "João",
+     "codigo": "JHN",
+     "ci": 2,
+     "cf": 3
+    }
+   ],
+   "titulo": "João 2–3",
+   "capitulos": 2.0
+  },
+  {
+   "dia": 283,
+   "epoca": 10,
+   "passagens": [
+    {
+     "livro": "João",
+     "codigo": "JHN",
+     "ci": 4,
+     "cf": 4
+    },
+    {
+     "livro": "Mateus",
+     "codigo": "MAT",
+     "ci": 4,
+     "cf": 4,
+     "vi": 12,
+     "vf": 25
+    },
+    {
+     "livro": "Marcos",
+     "codigo": "MRK",
+     "ci": 1,
+     "cf": 1,
+     "vi": 14,
+     "vf": 45
+    },
+    {
+     "livro": "Lucas",
+     "codigo": "LUK",
+     "ci": 4,
+     "cf": 4,
+     "vi": 14,
+     "vf": 44
+    }
+   ],
+   "titulo": "João 4; Mateus 4:12–25; Marcos 1:14–45; Lucas 4:14–44",
+   "capitulos": 2.98
+  },
+  {
+   "dia": 284,
+   "epoca": 10,
+   "passagens": [
+    {
+     "livro": "Lucas",
+     "codigo": "LUK",
+     "ci": 5,
+     "cf": 5
+    },
+    {
+     "livro": "Marcos",
+     "codigo": "MRK",
+     "ci": 2,
+     "cf": 3
+    }
+   ],
+   "titulo": "Lucas 5; Marcos 2–3",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 285,
+   "epoca": 10,
+   "passagens": [
+    {
+     "livro": "João",
+     "codigo": "JHN",
+     "ci": 5,
+     "cf": 5
+    },
+    {
+     "livro": "Mateus",
+     "codigo": "MAT",
+     "ci": 5,
+     "cf": 5
+    }
+   ],
+   "titulo": "João 5; Mateus 5",
+   "capitulos": 2.0
+  },
+  {
+   "dia": 286,
+   "epoca": 10,
+   "passagens": [
+    {
+     "livro": "Mateus",
+     "codigo": "MAT",
+     "ci": 6,
+     "cf": 7
+    },
+    {
+     "livro": "Lucas",
+     "codigo": "LUK",
+     "ci": 6,
+     "cf": 6
+    }
+   ],
+   "titulo": "Mateus 6–7; Lucas 6",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 287,
+   "epoca": 10,
+   "passagens": [
+    {
+     "livro": "Mateus",
+     "codigo": "MAT",
+     "ci": 8,
+     "cf": 9
+    }
+   ],
+   "titulo": "Mateus 8–9",
+   "capitulos": 2.0
+  },
+  {
+   "dia": 288,
+   "epoca": 10,
+   "passagens": [
+    {
+     "livro": "Lucas",
+     "codigo": "LUK",
+     "ci": 7,
+     "cf": 7
+    },
+    {
+     "livro": "Mateus",
+     "codigo": "MAT",
+     "ci": 11,
+     "cf": 12
+    }
+   ],
+   "titulo": "Lucas 7; Mateus 11–12",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 289,
+   "epoca": 10,
+   "passagens": [
+    {
+     "livro": "Mateus",
+     "codigo": "MAT",
+     "ci": 13,
+     "cf": 13
+    },
+    {
+     "livro": "Marcos",
+     "codigo": "MRK",
+     "ci": 4,
+     "cf": 4,
+     "vi": 1,
+     "vf": 34
+    }
+   ],
+   "titulo": "Mateus 13; Marcos 4:1–34",
+   "capitulos": 1.83
+  },
+  {
+   "dia": 290,
+   "epoca": 10,
+   "passagens": [
+    {
+     "livro": "Lucas",
+     "codigo": "LUK",
+     "ci": 8,
+     "cf": 8
+    },
+    {
+     "livro": "Marcos",
+     "codigo": "MRK",
+     "ci": 4,
+     "cf": 5,
+     "vi": 35,
+     "vf": 43
+    }
+   ],
+   "titulo": "Lucas 8; Marcos 4:35–5:43",
+   "capitulos": 2.17
+  },
+  {
+   "dia": 291,
+   "epoca": 10,
+   "passagens": [
+    {
+     "livro": "Mateus",
+     "codigo": "MAT",
+     "ci": 10,
+     "cf": 10
+    },
+    {
+     "livro": "Marcos",
+     "codigo": "MRK",
+     "ci": 6,
+     "cf": 6
+    },
+    {
+     "livro": "Lucas",
+     "codigo": "LUK",
+     "ci": 9,
+     "cf": 9,
+     "vi": 1,
+     "vf": 17
+    }
+   ],
+   "titulo": "Mateus 10; Marcos 6; Lucas 9:1–17",
+   "capitulos": 2.27
+  },
+  {
+   "dia": 292,
+   "epoca": 10,
+   "passagens": [
+    {
+     "livro": "Mateus",
+     "codigo": "MAT",
+     "ci": 14,
+     "cf": 14
+    },
+    {
+     "livro": "João",
+     "codigo": "JHN",
+     "ci": 6,
+     "cf": 6
+    }
+   ],
+   "titulo": "Mateus 14; João 6",
+   "capitulos": 2.0
+  },
+  {
+   "dia": 293,
+   "epoca": 10,
+   "passagens": [
+    {
+     "livro": "Mateus",
+     "codigo": "MAT",
+     "ci": 15,
+     "cf": 15
+    },
+    {
+     "livro": "Marcos",
+     "codigo": "MRK",
+     "ci": 7,
+     "cf": 8,
+     "vi": 1,
+     "vf": 26
+    },
+    {
+     "livro": "Mateus",
+     "codigo": "MAT",
+     "ci": 16,
+     "cf": 16
+    }
+   ],
+   "titulo": "Mateus 15; Marcos 7:1–8:26; Mateus 16",
+   "capitulos": 3.68
+  },
+  {
+   "dia": 294,
+   "epoca": 10,
+   "passagens": [
+    {
+     "livro": "Mateus",
+     "codigo": "MAT",
+     "ci": 17,
+     "cf": 17
+    },
+    {
+     "livro": "Marcos",
+     "codigo": "MRK",
+     "ci": 8,
+     "cf": 9,
+     "vi": 27,
+     "vf": 50
+    }
+   ],
+   "titulo": "Mateus 17; Marcos 8:27–9:50",
+   "capitulos": 2.32
+  },
+  {
+   "dia": 295,
+   "epoca": 10,
+   "passagens": [
+    {
+     "livro": "Lucas",
+     "codigo": "LUK",
+     "ci": 9,
+     "cf": 9,
+     "vi": 18,
+     "vf": 50
+    },
+    {
+     "livro": "Mateus",
+     "codigo": "MAT",
+     "ci": 18,
+     "cf": 18
+    },
+    {
+     "livro": "João",
+     "codigo": "JHN",
+     "ci": 7,
+     "cf": 7
+    }
+   ],
+   "titulo": "Lucas 9:18–50; Mateus 18; João 7",
+   "capitulos": 2.53
+  },
+  {
+   "dia": 296,
+   "epoca": 10,
+   "passagens": [
+    {
+     "livro": "João",
+     "codigo": "JHN",
+     "ci": 8,
+     "cf": 9
+    }
+   ],
+   "titulo": "João 8–9",
+   "capitulos": 2.0
+  },
+  {
+   "dia": 297,
+   "epoca": 10,
+   "passagens": [
+    {
+     "livro": "João",
+     "codigo": "JHN",
+     "ci": 10,
+     "cf": 10,
+     "vi": 1,
+     "vf": 21
+    },
+    {
+     "livro": "Lucas",
+     "codigo": "LUK",
+     "ci": 9,
+     "cf": 11,
+     "vi": 51,
+     "vf": 54
+    }
+   ],
+   "titulo": "João 10:1–21; Lucas 9:51–11:54",
+   "capitulos": 2.69
+  },
+  {
+   "dia": 298,
+   "epoca": 10,
+   "passagens": [
+    {
+     "livro": "Lucas",
+     "codigo": "LUK",
+     "ci": 12,
+     "cf": 13,
+     "vi": 1,
+     "vf": 21
+    }
+   ],
+   "titulo": "Lucas 12:1–13:21",
+   "capitulos": 1.6
+  },
+  {
+   "dia": 299,
+   "epoca": 10,
+   "passagens": [
+    {
+     "livro": "João",
+     "codigo": "JHN",
+     "ci": 10,
+     "cf": 10,
+     "vi": 22,
+     "vf": 42
+    },
+    {
+     "livro": "Lucas",
+     "codigo": "LUK",
+     "ci": 13,
+     "cf": 15,
+     "vi": 22,
+     "vf": 32
+    }
+   ],
+   "titulo": "João 10:22–42; Lucas 13:22–15:32",
+   "capitulos": 2.9
+  },
+  {
+   "dia": 300,
+   "epoca": 10,
+   "passagens": [
+    {
+     "livro": "Lucas",
+     "codigo": "LUK",
+     "ci": 16,
+     "cf": 17,
+     "vi": 1,
+     "vf": 10
+    },
+    {
+     "livro": "João",
+     "codigo": "JHN",
+     "ci": 11,
+     "cf": 11
+    }
+   ],
+   "titulo": "Lucas 16:1–17:10; João 11",
+   "capitulos": 2.27
+  },
+  {
+   "dia": 301,
+   "epoca": 10,
+   "passagens": [
+    {
+     "livro": "Lucas",
+     "codigo": "LUK",
+     "ci": 17,
+     "cf": 18,
+     "vi": 11,
+     "vf": 34
+    },
+    {
+     "livro": "Mateus",
+     "codigo": "MAT",
+     "ci": 19,
+     "cf": 20
+    }
+   ],
+   "titulo": "Lucas 17:11–18:34; Mateus 19–20",
+   "capitulos": 3.52
+  },
+  {
+   "dia": 302,
+   "epoca": 10,
+   "passagens": [
+    {
+     "livro": "Marcos",
+     "codigo": "MRK",
+     "ci": 10,
+     "cf": 10
+    },
+    {
+     "livro": "Lucas",
+     "codigo": "LUK",
+     "ci": 18,
+     "cf": 19,
+     "vi": 35,
+     "vf": 27
+    }
+   ],
+   "titulo": "Marcos 10; Lucas 18:35–19:27",
+   "capitulos": 1.77
+  },
+  {
+   "dia": 303,
+   "epoca": 10,
+   "passagens": [
+    {
+     "livro": "João",
+     "codigo": "JHN",
+     "ci": 12,
+     "cf": 12
+    },
+    {
+     "livro": "Mateus",
+     "codigo": "MAT",
+     "ci": 21,
+     "cf": 21
+    }
+   ],
+   "titulo": "João 12; Mateus 21",
+   "capitulos": 2.0
+  },
+  {
+   "dia": 304,
+   "epoca": 10,
+   "passagens": [
+    {
+     "livro": "Mateus",
+     "codigo": "MAT",
+     "ci": 22,
+     "cf": 23
+    },
+    {
+     "livro": "Marcos",
+     "codigo": "MRK",
+     "ci": 11,
+     "cf": 11
+    }
+   ],
+   "titulo": "Mateus 22–23; Marcos 11",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 305,
+   "epoca": 10,
+   "passagens": [
+    {
+     "livro": "Marcos",
+     "codigo": "MRK",
+     "ci": 12,
+     "cf": 12
+    },
+    {
+     "livro": "Lucas",
+     "codigo": "LUK",
+     "ci": 19,
+     "cf": 20,
+     "vi": 28,
+     "vf": 47
+    }
+   ],
+   "titulo": "Marcos 12; Lucas 19:28–20:47",
+   "capitulos": 2.44
+  },
+  {
+   "dia": 306,
+   "epoca": 10,
+   "passagens": [
+    {
+     "livro": "Lucas",
+     "codigo": "LUK",
+     "ci": 21,
+     "cf": 21
+    },
+    {
+     "livro": "Mateus",
+     "codigo": "MAT",
+     "ci": 24,
+     "cf": 24
+    }
+   ],
+   "titulo": "Lucas 21; Mateus 24",
+   "capitulos": 2.0
+  },
+  {
+   "dia": 307,
+   "epoca": 10,
+   "passagens": [
+    {
+     "livro": "Mateus",
+     "codigo": "MAT",
+     "ci": 25,
+     "cf": 25
+    },
+    {
+     "livro": "Marcos",
+     "codigo": "MRK",
+     "ci": 13,
+     "cf": 13
+    },
+    {
+     "livro": "João",
+     "codigo": "JHN",
+     "ci": 13,
+     "cf": 13
+    }
+   ],
+   "titulo": "Mateus 25; Marcos 13; João 13",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 308,
+   "epoca": 10,
+   "passagens": [
+    {
+     "livro": "João",
+     "codigo": "JHN",
+     "ci": 14,
+     "cf": 16
+    }
+   ],
+   "titulo": "João 14–16",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 309,
+   "epoca": 10,
+   "passagens": [
+    {
+     "livro": "João",
+     "codigo": "JHN",
+     "ci": 17,
+     "cf": 17
+    },
+    {
+     "livro": "Mateus",
+     "codigo": "MAT",
+     "ci": 26,
+     "cf": 26
+    }
+   ],
+   "titulo": "João 17; Mateus 26",
+   "capitulos": 2.0
+  },
+  {
+   "dia": 310,
+   "epoca": 10,
+   "passagens": [
+    {
+     "livro": "Marcos",
+     "codigo": "MRK",
+     "ci": 14,
+     "cf": 14
+    },
+    {
+     "livro": "Lucas",
+     "codigo": "LUK",
+     "ci": 22,
+     "cf": 22
+    }
+   ],
+   "titulo": "Marcos 14; Lucas 22",
+   "capitulos": 2.0
+  },
+  {
+   "dia": 311,
+   "epoca": 10,
+   "passagens": [
+    {
+     "livro": "João",
+     "codigo": "JHN",
+     "ci": 18,
+     "cf": 19
+    }
+   ],
+   "titulo": "João 18–19",
+   "capitulos": 2.0
+  },
+  {
+   "dia": 312,
+   "epoca": 10,
+   "passagens": [
+    {
+     "livro": "Mateus",
+     "codigo": "MAT",
+     "ci": 27,
+     "cf": 27
+    },
+    {
+     "livro": "Marcos",
+     "codigo": "MRK",
+     "ci": 15,
+     "cf": 15
+    }
+   ],
+   "titulo": "Mateus 27; Marcos 15",
+   "capitulos": 2.0
+  },
+  {
+   "dia": 313,
+   "epoca": 10,
+   "passagens": [
+    {
+     "livro": "Lucas",
+     "codigo": "LUK",
+     "ci": 23,
+     "cf": 23
+    },
+    {
+     "livro": "Mateus",
+     "codigo": "MAT",
+     "ci": 28,
+     "cf": 28
+    },
+    {
+     "livro": "Marcos",
+     "codigo": "MRK",
+     "ci": 16,
+     "cf": 16
+    }
+   ],
+   "titulo": "Lucas 23; Mateus 28; Marcos 16",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 314,
+   "epoca": 10,
+   "passagens": [
+    {
+     "livro": "Lucas",
+     "codigo": "LUK",
+     "ci": 24,
+     "cf": 24
+    },
+    {
+     "livro": "João",
+     "codigo": "JHN",
+     "ci": 20,
+     "cf": 21
+    }
+   ],
+   "titulo": "Lucas 24; João 20–21",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 315,
+   "epoca": 11,
+   "passagens": [
+    {
+     "livro": "Atos",
+     "codigo": "ACT",
+     "ci": 1,
+     "cf": 3
+    }
+   ],
+   "titulo": "Atos 1–3",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 316,
+   "epoca": 11,
+   "passagens": [
+    {
+     "livro": "Atos",
+     "codigo": "ACT",
+     "ci": 4,
+     "cf": 6
+    }
+   ],
+   "titulo": "Atos 4–6",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 317,
+   "epoca": 11,
+   "passagens": [
+    {
+     "livro": "Atos",
+     "codigo": "ACT",
+     "ci": 7,
+     "cf": 8
+    }
+   ],
+   "titulo": "Atos 7–8",
+   "capitulos": 2.0
+  },
+  {
+   "dia": 318,
+   "epoca": 11,
+   "passagens": [
+    {
+     "livro": "Atos",
+     "codigo": "ACT",
+     "ci": 9,
+     "cf": 11
+    }
+   ],
+   "titulo": "Atos 9–11",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 319,
+   "epoca": 11,
+   "passagens": [
+    {
+     "livro": "Atos",
+     "codigo": "ACT",
+     "ci": 12,
+     "cf": 13
+    }
+   ],
+   "titulo": "Atos 12–13",
+   "capitulos": 2.0
+  },
+  {
+   "dia": 320,
+   "epoca": 11,
+   "passagens": [
+    {
+     "livro": "Atos",
+     "codigo": "ACT",
+     "ci": 14,
+     "cf": 14
+    },
+    {
+     "livro": "Tiago",
+     "codigo": "JAS",
+     "ci": 1,
+     "cf": 3
+    }
+   ],
+   "titulo": "Atos 14; Tiago 1–3",
+   "capitulos": 4.0
+  },
+  {
+   "dia": 321,
+   "epoca": 11,
+   "passagens": [
+    {
+     "livro": "Tiago",
+     "codigo": "JAS",
+     "ci": 4,
+     "cf": 5
+    },
+    {
+     "livro": "Gálatas",
+     "codigo": "GAL",
+     "ci": 1,
+     "cf": 1
+    }
+   ],
+   "titulo": "Tiago 4–5; Gálatas 1",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 322,
+   "epoca": 11,
+   "passagens": [
+    {
+     "livro": "Gálatas",
+     "codigo": "GAL",
+     "ci": 2,
+     "cf": 5
+    }
+   ],
+   "titulo": "Gálatas 2–5",
+   "capitulos": 4.0
+  },
+  {
+   "dia": 323,
+   "epoca": 11,
+   "passagens": [
+    {
+     "livro": "Gálatas",
+     "codigo": "GAL",
+     "ci": 6,
+     "cf": 6
+    },
+    {
+     "livro": "Atos",
+     "codigo": "ACT",
+     "ci": 15,
+     "cf": 16
+    }
+   ],
+   "titulo": "Gálatas 6; Atos 15–16",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 324,
+   "epoca": 11,
+   "passagens": [
+    {
+     "livro": "Atos",
+     "codigo": "ACT",
+     "ci": 17,
+     "cf": 18
+    },
+    {
+     "livro": "1 Tessalonicenses",
+     "codigo": "1TH",
+     "ci": 1,
+     "cf": 1
+    }
+   ],
+   "titulo": "Atos 17–18; 1 Tessalonicenses 1",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 325,
+   "epoca": 11,
+   "passagens": [
+    {
+     "livro": "1 Tessalonicenses",
+     "codigo": "1TH",
+     "ci": 2,
+     "cf": 5
+    }
+   ],
+   "titulo": "1 Tessalonicenses 2–5",
+   "capitulos": 4.0
+  },
+  {
+   "dia": 326,
+   "epoca": 11,
+   "passagens": [
+    {
+     "livro": "2 Tessalonicenses",
+     "codigo": "2TH",
+     "ci": 1,
+     "cf": 3
+    }
+   ],
+   "titulo": "2 Tessalonicenses 1–3",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 327,
+   "epoca": 11,
+   "passagens": [
+    {
+     "livro": "Atos",
+     "codigo": "ACT",
+     "ci": 19,
+     "cf": 20
+    },
+    {
+     "livro": "1 Coríntios",
+     "codigo": "1CO",
+     "ci": 1,
+     "cf": 1
+    }
+   ],
+   "titulo": "Atos 19–20; 1 Coríntios 1",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 328,
+   "epoca": 11,
+   "passagens": [
+    {
+     "livro": "1 Coríntios",
+     "codigo": "1CO",
+     "ci": 2,
+     "cf": 5
+    }
+   ],
+   "titulo": "1 Coríntios 2–5",
+   "capitulos": 4.0
+  },
+  {
+   "dia": 329,
+   "epoca": 11,
+   "passagens": [
+    {
+     "livro": "1 Coríntios",
+     "codigo": "1CO",
+     "ci": 6,
+     "cf": 8
+    }
+   ],
+   "titulo": "1 Coríntios 6–8",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 330,
+   "epoca": 11,
+   "passagens": [
+    {
+     "livro": "1 Coríntios",
+     "codigo": "1CO",
+     "ci": 9,
+     "cf": 11
+    }
+   ],
+   "titulo": "1 Coríntios 9–11",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 331,
+   "epoca": 11,
+   "passagens": [
+    {
+     "livro": "1 Coríntios",
+     "codigo": "1CO",
+     "ci": 12,
+     "cf": 14
+    }
+   ],
+   "titulo": "1 Coríntios 12–14",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 332,
+   "epoca": 11,
+   "passagens": [
+    {
+     "livro": "1 Coríntios",
+     "codigo": "1CO",
+     "ci": 15,
+     "cf": 16
+    },
+    {
+     "livro": "2 Coríntios",
+     "codigo": "2CO",
+     "ci": 1,
+     "cf": 1
+    }
+   ],
+   "titulo": "1 Coríntios 15–16; 2 Coríntios 1",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 333,
+   "epoca": 11,
+   "passagens": [
+    {
+     "livro": "2 Coríntios",
+     "codigo": "2CO",
+     "ci": 2,
+     "cf": 5
+    }
+   ],
+   "titulo": "2 Coríntios 2–5",
+   "capitulos": 4.0
+  },
+  {
+   "dia": 334,
+   "epoca": 11,
+   "passagens": [
+    {
+     "livro": "2 Coríntios",
+     "codigo": "2CO",
+     "ci": 6,
+     "cf": 9
+    }
+   ],
+   "titulo": "2 Coríntios 6–9",
+   "capitulos": 4.0
+  },
+  {
+   "dia": 335,
+   "epoca": 11,
+   "passagens": [
+    {
+     "livro": "2 Coríntios",
+     "codigo": "2CO",
+     "ci": 10,
+     "cf": 12
+    }
+   ],
+   "titulo": "2 Coríntios 10–12",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 336,
+   "epoca": 11,
+   "passagens": [
+    {
+     "livro": "2 Coríntios",
+     "codigo": "2CO",
+     "ci": 13,
+     "cf": 13
+    },
+    {
+     "livro": "Romanos",
+     "codigo": "ROM",
+     "ci": 1,
+     "cf": 2
+    }
+   ],
+   "titulo": "2 Coríntios 13; Romanos 1–2",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 337,
+   "epoca": 11,
+   "passagens": [
+    {
+     "livro": "Romanos",
+     "codigo": "ROM",
+     "ci": 3,
+     "cf": 6
+    }
+   ],
+   "titulo": "Romanos 3–6",
+   "capitulos": 4.0
+  },
+  {
+   "dia": 338,
+   "epoca": 11,
+   "passagens": [
+    {
+     "livro": "Romanos",
+     "codigo": "ROM",
+     "ci": 7,
+     "cf": 9
+    }
+   ],
+   "titulo": "Romanos 7–9",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 339,
+   "epoca": 11,
+   "passagens": [
+    {
+     "livro": "Romanos",
+     "codigo": "ROM",
+     "ci": 10,
+     "cf": 12
+    }
+   ],
+   "titulo": "Romanos 10–12",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 340,
+   "epoca": 11,
+   "passagens": [
+    {
+     "livro": "Romanos",
+     "codigo": "ROM",
+     "ci": 13,
+     "cf": 15
+    }
+   ],
+   "titulo": "Romanos 13–15",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 341,
+   "epoca": 11,
+   "passagens": [
+    {
+     "livro": "Romanos",
+     "codigo": "ROM",
+     "ci": 16,
+     "cf": 16
+    },
+    {
+     "livro": "Atos",
+     "codigo": "ACT",
+     "ci": 21,
+     "cf": 22
+    }
+   ],
+   "titulo": "Romanos 16; Atos 21–22",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 342,
+   "epoca": 11,
+   "passagens": [
+    {
+     "livro": "Atos",
+     "codigo": "ACT",
+     "ci": 23,
+     "cf": 25
+    }
+   ],
+   "titulo": "Atos 23–25",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 343,
+   "epoca": 11,
+   "passagens": [
+    {
+     "livro": "Atos",
+     "codigo": "ACT",
+     "ci": 26,
+     "cf": 28
+    }
+   ],
+   "titulo": "Atos 26–28",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 344,
+   "epoca": 12,
+   "passagens": [
+    {
+     "livro": "Efésios",
+     "codigo": "EPH",
+     "ci": 1,
+     "cf": 3
+    }
+   ],
+   "titulo": "Efésios 1–3",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 345,
+   "epoca": 12,
+   "passagens": [
+    {
+     "livro": "Efésios",
+     "codigo": "EPH",
+     "ci": 4,
+     "cf": 6
+    }
+   ],
+   "titulo": "Efésios 4–6",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 346,
+   "epoca": 12,
+   "passagens": [
+    {
+     "livro": "Filipenses",
+     "codigo": "PHP",
+     "ci": 1,
+     "cf": 4
+    }
+   ],
+   "titulo": "Filipenses 1–4",
+   "capitulos": 4.0
+  },
+  {
+   "dia": 347,
+   "epoca": 12,
+   "passagens": [
+    {
+     "livro": "Colossenses",
+     "codigo": "COL",
+     "ci": 1,
+     "cf": 3
+    }
+   ],
+   "titulo": "Colossenses 1–3",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 348,
+   "epoca": 12,
+   "passagens": [
+    {
+     "livro": "Colossenses",
+     "codigo": "COL",
+     "ci": 4,
+     "cf": 4
+    },
+    {
+     "livro": "Filémon",
+     "codigo": "PHM",
+     "ci": 1,
+     "cf": 1
+    },
+    {
+     "livro": "1 Timóteo",
+     "codigo": "1TI",
+     "ci": 1,
+     "cf": 2
+    }
+   ],
+   "titulo": "Colossenses 4; Filémon; 1 Timóteo 1–2",
+   "capitulos": 4.0
+  },
+  {
+   "dia": 349,
+   "epoca": 12,
+   "passagens": [
+    {
+     "livro": "1 Timóteo",
+     "codigo": "1TI",
+     "ci": 3,
+     "cf": 5
+    }
+   ],
+   "titulo": "1 Timóteo 3–5",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 350,
+   "epoca": 12,
+   "passagens": [
+    {
+     "livro": "1 Timóteo",
+     "codigo": "1TI",
+     "ci": 6,
+     "cf": 6
+    },
+    {
+     "livro": "Tito",
+     "codigo": "TIT",
+     "ci": 1,
+     "cf": 3
+    }
+   ],
+   "titulo": "1 Timóteo 6; Tito 1–3",
+   "capitulos": 4.0
+  },
+  {
+   "dia": 351,
+   "epoca": 12,
+   "passagens": [
+    {
+     "livro": "1 Pedro",
+     "codigo": "1PE",
+     "ci": 1,
+     "cf": 4
+    }
+   ],
+   "titulo": "1 Pedro 1–4",
+   "capitulos": 4.0
+  },
+  {
+   "dia": 352,
+   "epoca": 12,
+   "passagens": [
+    {
+     "livro": "1 Pedro",
+     "codigo": "1PE",
+     "ci": 5,
+     "cf": 5
+    },
+    {
+     "livro": "2 Timóteo",
+     "codigo": "2TI",
+     "ci": 1,
+     "cf": 3
+    }
+   ],
+   "titulo": "1 Pedro 5; 2 Timóteo 1–3",
+   "capitulos": 4.0
+  },
+  {
+   "dia": 353,
+   "epoca": 12,
+   "passagens": [
+    {
+     "livro": "2 Timóteo",
+     "codigo": "2TI",
+     "ci": 4,
+     "cf": 4
+    },
+    {
+     "livro": "2 Pedro",
+     "codigo": "2PE",
+     "ci": 1,
+     "cf": 2
+    }
+   ],
+   "titulo": "2 Timóteo 4; 2 Pedro 1–2",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 354,
+   "epoca": 12,
+   "passagens": [
+    {
+     "livro": "2 Pedro",
+     "codigo": "2PE",
+     "ci": 3,
+     "cf": 3
+    },
+    {
+     "livro": "Judas",
+     "codigo": "JUD",
+     "ci": 1,
+     "cf": 1
+    },
+    {
+     "livro": "Hebreus",
+     "codigo": "HEB",
+     "ci": 1,
+     "cf": 2
+    }
+   ],
+   "titulo": "2 Pedro 3; Judas; Hebreus 1–2",
+   "capitulos": 4.0
+  },
+  {
+   "dia": 355,
+   "epoca": 12,
+   "passagens": [
+    {
+     "livro": "Hebreus",
+     "codigo": "HEB",
+     "ci": 3,
+     "cf": 6
+    }
+   ],
+   "titulo": "Hebreus 3–6",
+   "capitulos": 4.0
+  },
+  {
+   "dia": 356,
+   "epoca": 12,
+   "passagens": [
+    {
+     "livro": "Hebreus",
+     "codigo": "HEB",
+     "ci": 7,
+     "cf": 9
+    }
+   ],
+   "titulo": "Hebreus 7–9",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 357,
+   "epoca": 12,
+   "passagens": [
+    {
+     "livro": "Hebreus",
+     "codigo": "HEB",
+     "ci": 10,
+     "cf": 12
+    }
+   ],
+   "titulo": "Hebreus 10–12",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 358,
+   "epoca": 12,
+   "passagens": [
+    {
+     "livro": "Hebreus",
+     "codigo": "HEB",
+     "ci": 13,
+     "cf": 13
+    },
+    {
+     "livro": "1 João",
+     "codigo": "1JN",
+     "ci": 1,
+     "cf": 2
+    }
+   ],
+   "titulo": "Hebreus 13; 1 João 1–2",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 359,
+   "epoca": 12,
+   "passagens": [
+    {
+     "livro": "1 João",
+     "codigo": "1JN",
+     "ci": 3,
+     "cf": 5
+    },
+    {
+     "livro": "2 João",
+     "codigo": "2JN",
+     "ci": 1,
+     "cf": 1
+    }
+   ],
+   "titulo": "1 João 3–5; 2 João",
+   "capitulos": 4.0
+  },
+  {
+   "dia": 360,
+   "epoca": 12,
+   "passagens": [
+    {
+     "livro": "3 João",
+     "codigo": "3JN",
+     "ci": 1,
+     "cf": 1
+    },
+    {
+     "livro": "Apocalipse",
+     "codigo": "REV",
+     "ci": 1,
+     "cf": 3
+    }
+   ],
+   "titulo": "3 João; Apocalipse 1–3",
+   "capitulos": 4.0
+  },
+  {
+   "dia": 361,
+   "epoca": 12,
+   "passagens": [
+    {
+     "livro": "Apocalipse",
+     "codigo": "REV",
+     "ci": 4,
+     "cf": 7
+    }
+   ],
+   "titulo": "Apocalipse 4–7",
+   "capitulos": 4.0
+  },
+  {
+   "dia": 362,
+   "epoca": 12,
+   "passagens": [
+    {
+     "livro": "Apocalipse",
+     "codigo": "REV",
+     "ci": 8,
+     "cf": 11
+    }
+   ],
+   "titulo": "Apocalipse 8–11",
+   "capitulos": 4.0
+  },
+  {
+   "dia": 363,
+   "epoca": 12,
+   "passagens": [
+    {
+     "livro": "Apocalipse",
+     "codigo": "REV",
+     "ci": 12,
+     "cf": 15
+    }
+   ],
+   "titulo": "Apocalipse 12–15",
+   "capitulos": 4.0
+  },
+  {
+   "dia": 364,
+   "epoca": 12,
+   "passagens": [
+    {
+     "livro": "Apocalipse",
+     "codigo": "REV",
+     "ci": 16,
+     "cf": 18
+    }
+   ],
+   "titulo": "Apocalipse 16–18",
+   "capitulos": 3.0
+  },
+  {
+   "dia": 365,
+   "epoca": 12,
+   "passagens": [
+    {
+     "livro": "Apocalipse",
+     "codigo": "REV",
+     "ci": 19,
+     "cf": 22
+    }
+   ],
+   "titulo": "Apocalipse 19–22",
+   "capitulos": 4.0
+  }
+ ]
+}

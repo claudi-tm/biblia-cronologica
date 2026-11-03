@@ -1,0 +1,61 @@
+name: Propor uma nota nova
+description: Uma dúvida que aparece ao ler um versículo, com a explicação.
+title: "Nova nota: "
+labels: ["nova-nota"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Antes de escrever, lê as regras curtas em [Como escrever uma nota](https://github.com/claudi-tm/biblia-cronologica/blob/main/CONTRIBUTING.md). As mais importantes:
+        - A pergunta e a resposta falam só do que o leitor já leu, ou está a ler, nesta época.
+        - Ligações a livros mais à frente (por exemplo, a Jesus quando ainda estamos no Antigo Testamento) vão para o campo **Mais à frente na Bíblia**.
+        - Citações entre aspas "assim" têm de ser copiadas tal e qual da Bíblia Livre.
+  - type: input
+    id: referencia
+    attributes:
+      label: Versículo
+      description: "Por exemplo: Êxodo 3:5"
+      placeholder: Êxodo 3:5
+    validations:
+      required: true
+  - type: input
+    id: pergunta
+    attributes:
+      label: Pergunta
+      description: A dúvida, como um leitor a faria.
+      placeholder: Porque é que Moisés teve de tirar o calçado?
+    validations:
+      required: true
+  - type: dropdown
+    id: tipo
+    attributes:
+      label: Tipo de dúvida
+      options:
+        - Costumes e cultura
+        - Medidas, pesos e moedas
+        - Objetos e construções
+        - Rituais e leis
+        - Lugares e geografia
+        - Pessoas e parentescos
+        - Palavras difíceis
+        - Aparentes contradições
+        - Questões morais difíceis
+    validations:
+      required: true
+  - type: textarea
+    id: resposta
+    attributes:
+      label: Resposta
+      description: Dois ou três parágrafos curtos, separados por uma linha em branco.
+    validations:
+      required: true
+  - type: textarea
+    id: adiante
+    attributes:
+      label: Mais à frente na Bíblia (opcional)
+      description: Ligações a livros que o leitor ainda não leu.
+  - type: input
+    id: nome
+    attributes:
+      label: O teu nome (opcional)
+      description: Aparece como autor da nota.

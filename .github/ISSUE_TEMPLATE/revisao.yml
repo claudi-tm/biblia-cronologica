@@ -1,0 +1,22 @@
+name: Revisão de notas
+description: Enviar as notas que marcaste no app como claras, confusas ou erradas.
+title: "Revisão de notas"
+labels: ["revisão"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Obrigado por rever! Se vieste do botão **Enviar para o GitHub** do app, a lista já está preenchida em baixo.
+        Se a lista estiver vazia, volta ao app, toca em **Copiar a revisão** e cola aqui.
+  - type: textarea
+    id: notas
+    attributes:
+      label: As notas que marcaste
+      description: A lista copiada do app. Podes acrescentar comentários à vontade.
+    validations:
+      required: true
+  - type: input
+    id: nome
+    attributes:
+      label: O teu nome (opcional)
+      description: Para sabermos quem ajudou.

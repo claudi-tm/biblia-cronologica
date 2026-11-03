@@ -1,0 +1,6 @@
+_site/
+__pycache__/
+*.pyc
+_erro.txt
+fontes/
+.DS_Store
